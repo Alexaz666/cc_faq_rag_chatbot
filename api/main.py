@@ -1,17 +1,19 @@
 import time
 import logging
 from typing import List, Optional, Literal
+
 from fastapi import FastAPI
 from pydantic import BaseModel
-from src.query_prep import prep_retrieval
 
+from src.query_prep import prep_retrieval
 
 app = FastAPI()
 
 # -------------------------
 # Config
 # -------------------------
-RELEVANCE_THRESHOLD = 0.25
+RELEVANCE_THRESHOLD = 0.40
+TOP_K = 8
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -21,14 +23,18 @@ logger = logging.getLogger(__name__)
 # -------------------------
 class QueryRequest(BaseModel):
     query: str
-    segment: Optional[Literal["personal", "business"]] = "personal"
+    # Segment is optional; defaults are handled in src.query_prep.prep_retrieval
+    segment: Optional[Literal["personal", "business"]] = None
+
 
 class Source(BaseModel):
     title: Optional[str]
     url: Optional[str]
 
+
 class Snippet(Source):
     snippet: str
+
 
 class AnswerResponse(BaseModel):
     answer: str
@@ -37,19 +43,16 @@ class AnswerResponse(BaseModel):
     refused: bool = False
     refusal_reason: Optional[str] = None
 
+
 # -------------------------
 # Utils
 # -------------------------
-#def build_segment_filter(segment: str) -> dict:
-    # segment is "personal" or "business"
-#    return {
-#        "$or": [
-#            {"segment": segment},
-#            {"segment": "generic"},
-#        ]
-#    }
-
-def make_response(answer: str, sources=None, snippets=None, refusal_reason: str | None = None):
+def make_response(
+    answer: str,
+    sources=None,
+    snippets=None,
+    refusal_reason: str | None = None,
+):
     return {
         "answer": answer,
         "sources": sources or [],
@@ -57,6 +60,8 @@ def make_response(answer: str, sources=None, snippets=None, refusal_reason: str 
         "refused": refusal_reason is not None,
         **({"refusal_reason": refusal_reason} if refusal_reason else {}),
     }
+
+
 # -------------------------
 # Global state (initialised on startup)
 # -------------------------
@@ -84,6 +89,7 @@ def startup():
 
     logger.info("RAG pipeline initialised")
 
+
 # -------------------------
 # Health check
 # -------------------------
@@ -91,29 +97,40 @@ def startup():
 def health():
     return {"status": "ok"}
 
+
 # -------------------------
 # Main QA endpoint
 # -------------------------
 @app.post("/ask", response_model=AnswerResponse)
 def ask_question(request: QueryRequest):
     query = request.query
+
+    # Empty/whitespace query stopper
+    if not query or not query.strip():
+        return make_response(REFUSAL_TEXT, refusal_reason="empty_query")
+
+    # Centralised query/segment prep (normalisation + formalisation + segment filter)
     req_segment, retrieval_query, where, q_notes = prep_retrieval(query, request.segment)
 
     t0 = time.time()
-    logger.info("Received query")
+
+    # Log retrieval inputs for debugging/observability.
+    # These are server logs only (not returned in the API response).
+    logger.info(
+        "Received query | req_segment=%s | retrieval_query=%r | q_notes=%s",
+        req_segment,
+        retrieval_query,
+        q_notes,
+    )
 
     # 1) Retrieve with relevance scores
     docs_and_scores = vectorstore.similarity_search_with_relevance_scores(
         retrieval_query,
-        k=5,
-        filter=where
+        k=TOP_K,
+        filter=where,
     )
 
-    logger.info(
-        "Retrieved %d docs in %.2fs",
-        len(docs_and_scores),
-        time.time() - t0,
-    )
+    logger.info("Retrieved %d docs in %.2fs", len(docs_and_scores), time.time() - t0)
 
     if not docs_and_scores:
         return make_response(REFUSAL_TEXT, refusal_reason="empty_retrieval")
@@ -150,12 +167,7 @@ def ask_question(request: QueryRequest):
             sources.append({"title": title, "url": url})
             seen_urls.add(url)
 
-        snippets.append(
-            {
-                "title": title,
-                "url": url,
-                "snippet": d.page_content[:300],
-            }
-        )
+        snippets.append({"title": title, "url": url, "snippet": d.page_content[:300]})
 
-    return make_response(answer, sources[:5], snippets[:5])
+    # Return up to TOP_K sources/snippets to match retrieval depth
+    return make_response(answer, sources[:TOP_K], snippets[:TOP_K])
