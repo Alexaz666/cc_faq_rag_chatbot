@@ -1,0 +1,2726 @@
+[
+  {
+    "id": "AG1",
+    "bucket": "answerable",
+    "request_segment": "personal",
+    "question": "What is an annual fee on a credit card?",
+    "retrieval_query": "what is an annual fee on a credit card? | what is an monthly fee on a credit card?",
+    "query_notes": [
+      "annual fee + monthly fee expansion"
+    ],
+    "expected": "answer",
+    "answer": "An annual fee is a fee you pay for having access to a credit card. It is usually payable once a year, on or around the date you first activated your card, and the amount varies depending on the type of credit card.",
+    "refused": false,
+    "refusal_reason": null,
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic",
+      "personal"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.4551956748070841,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.4551956748070841,
+        "title": "Credit card definitions",
+        "url": "https://www.commbank.com.au/articles/credit-cards/credit-card-definitions.html",
+        "doc_segment": "generic",
+        "snippet": "additional cardholder\n. The primary cardholder is legally responsible for transactions made by the additional cardholder.\nAnnual fee\nThis is a fee you pay for having access to a credit card. The fee is usually payable once a year (on or around the date you first activated your card) and varies depen",
+        "segment_match": true
+      },
+      {
+        "score": 0.43256163704497574,
+        "title": "How do credit cards work?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-do-credit-cards-work.html",
+        "doc_segment": "generic",
+        "snippet": "Understanding credit card fees\nCredit cards have a number of associated fees associated, including annual fees, monthly fees, cash advance fees, late payment fees and international transaction fees. Before applying for any card, make sure you\u2019re across all of the\nfees that may apply\nand have budgete",
+        "segment_match": true
+      },
+      {
+        "score": 0.40153093553513297,
+        "title": "Credit card interest - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/credit-card-interest.html",
+        "doc_segment": "personal",
+        "snippet": "2\nFor Interest-free Low Fee credit card the monthly fee is $10 per month. If you don't have any processed transactions in a given statement period and pay your previous statement closing balance in full by the due date, you won't be charged a monthly fee for that statement period.",
+        "segment_match": true
+      },
+      {
+        "score": 0.36937002413562203,
+        "title": "What makes up your credit card balance?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/what-makes-up-your-credit-card-balance.html",
+        "doc_segment": "generic",
+        "snippet": "Fees\nCredit card fees can include an annual fee, monthly fee,\u00a0late payment fee, international transaction fees, or cash advance fee. Check out this list of standard\nfees and charges for personal CommBank credit cards\n.\nFind the credit card that's right for you\nHelp me choose\nThings you should know",
+        "segment_match": true
+      },
+      {
+        "score": 0.36084877430368956,
+        "title": "Low Fee Credit Card | Our lowest monthly fee card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/low-fee.html",
+        "doc_segment": "personal",
+        "snippet": "1\nFor Low Fee credit cards, there is no monthly fee when you spend at least $300 on your Low Fee credit card in your statement period\u00a0to qualify for no monthly fee for that month. Otherwise the monthly fee is $3. Spend includes all purchases and cash advances made using your Low Fee credit card, min",
+        "segment_match": true
+      },
+      {
+        "score": 0.35793764933019356,
+        "title": "Credit Card Offers - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/awards-credit-card-offer.html",
+        "doc_segment": "personal",
+        "snippet": "1\nFor Low Fee credit cards, there is no monthly fee when you spend at least $300 on your Low Fee credit card in your statement period to qualify for no monthly fee for that month. Otherwise the monthly fee is $3. Spend includes all purchases and cash advances made using your Low Fee credit card, min",
+        "segment_match": true
+      },
+      {
+        "score": 0.35119815751905903,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "(PDF 11kb)\nThings you should know\n1\nAnnual fees charged in advance and monthly fees are non-refundable including if your card is switched or closed before that time period expires. If you switch credit card types, your new fee only becomes due and payable, once the time period covered by your previo",
+        "segment_match": true
+      },
+      {
+        "score": 0.32998480572655586,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "6\nFor Low Fee credit cards, there is no monthly fee when you spend at least $300 on your Low Fee credit card in your statement period to qualify for no monthly fee for that month. Otherwise the monthly fee is $3. Spend includes all purchases and cash advances made using your Low Fee credit card, min",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "AG2",
+    "bucket": "answerable",
+    "request_segment": "personal",
+    "question": "What happens if I only pay the minimum repayment each month?",
+    "retrieval_query": "what happens if i only pay the minimum repayment each month?",
+    "query_notes": [],
+    "expected": "answer",
+    "answer": "If you pay only the minimum repayment each month, interest will be charged on the remaining balance.",
+    "refused": false,
+    "refusal_reason": null,
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic",
+      "personal"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.5866792593514887,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.5866792593514887,
+        "title": "What's a credit card minimum repayment? - CommBank",
+        "url": "https://www.commbank.com.au/articles/credit-cards/credit-card-minimum-repayment.html",
+        "doc_segment": "generic",
+        "snippet": "Paying only the minimum repayment amount each month means you'll usually incur interest over time. This will significantly increase your costs, and will extend the time it takes to pay off your total.\nMost credit cards come with an interest free period on purchases. Which means by paying the total a",
+        "segment_match": true
+      },
+      {
+        "score": 0.460079440878284,
+        "title": "Credit card interest free period",
+        "url": "https://www.commbank.com.au/articles/credit-cards/make-the-most-of-your-credit-card-interest-free-period.html",
+        "doc_segment": "generic",
+        "snippet": "John will receive a late payment fee if he doesn\u2019t pay at least the minimum payment shown on his statement by the due date each month.\nWhat happens if you don\u2019t repay your closing balance in full?\nIf you do not pay your closing balance in full or just make a\nminimum repayment\n, you will lose your in",
+        "segment_match": true
+      },
+      {
+        "score": 0.447523346797858,
+        "title": "What to teach your teen about credit",
+        "url": "https://www.commbank.com.au/articles/credit-cards/teach-your-teens-about-credit.html",
+        "doc_segment": "generic",
+        "snippet": "If you pay the minimum repayment each month \u2013 interest will be charged on anything left owing.\nIf you miss the repayment date or minimum repayment amount \u2013 typically a late fee will be charged, plus interest on everything owing.\nMost personal CommBank credit cards offer up to 44 or up to 55 days int",
+        "segment_match": true
+      },
+      {
+        "score": 0.42737226417522334,
+        "title": "Understanding credit card statements - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/manage/credit-card-statements.html",
+        "doc_segment": "generic",
+        "snippet": "Repayments & offers\nMinimum repayment warning:\u00a0this table illustrates how long it will take you to pay off your balance including any applicable interest charges by paying only the minimum payment versus the saving you would make by paying more than the minimum payment over a 2 year period. You can ",
+        "segment_match": true
+      },
+      {
+        "score": 0.4013784482372206,
+        "title": "Manage and control your credit card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/manage.html",
+        "doc_segment": "generic",
+        "snippet": "If you miss a monthly instalment payment, the unpaid instalment amount for that month will be returned to your main balance and charged interest at the standard purchase rate.",
+        "segment_match": true
+      },
+      {
+        "score": 0.3931773458665767,
+        "title": "SurePay instalment plans - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/manage/surepay-instalment-plans.html",
+        "doc_segment": "generic",
+        "snippet": "What if I miss a payment?\nIf you miss a monthly instalment payment, the unpaid instalment amount for that month will be returned to your main balance and you\u2019ll be charged interest at your accounts standard purchase (or cash advance) rate, which may have changed from when you first set up your SureP",
+        "segment_match": true
+      },
+      {
+        "score": 0.3924404503672123,
+        "title": "Tips to improve your credit score",
+        "url": "https://www.commbank.com.au/articles/credit-cards/tips-to-improve-your-credit-score.html",
+        "doc_segment": "generic",
+        "snippet": "While you may only have to make the minimum payment, paying off as much as you can reasonably afford every month may reduce interest charges and can improve your credit score. If you've racked up multiple debts and are feeling overwhelmed there are a few different ways you can begin tackling them.\nI",
+        "segment_match": true
+      },
+      {
+        "score": 0.3578068676592643,
+        "title": "CommBank Awards Card | Awards Points Credit Card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/awards.html",
+        "doc_segment": "personal",
+        "snippet": "If you miss a monthly instalment payment, the unpaid instalment amount for that month will be returned to your main balance and you\u2019ll be charged interest at your accounts standard purchase (or cash advance) rate, which may have changed from when you first set up your SurePay plan. If you cancel a p",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "AG3",
+    "bucket": "answerable",
+    "request_segment": "personal",
+    "question": "How are interests applied if I don\u2019t pay my balance in full?",
+    "retrieval_query": "how are interests applied if i don\u2019t pay my balance in full?",
+    "query_notes": [],
+    "expected": "answer",
+    "answer": "If you do not pay your closing balance in full by the due date, you will lose your interest-free period and interest will be charged on your unpaid balance from the day after the payment due date shown on your statement until you repay in full.",
+    "refused": false,
+    "refusal_reason": null,
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.5302814655410002,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.5302814655410002,
+        "title": "How does credit card interest work?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-does-credit-card-interest-work.html",
+        "doc_segment": "generic",
+        "snippet": "If you lose your interest-free period, we\u2019ll charge interest on the unpaid balance from the day after the payment due date shown on your statement, until you repay in full. Losing your interest-free period means that any new purchases you make will incur interest from the day you make them until the",
+        "segment_match": true
+      },
+      {
+        "score": 0.5049914176794322,
+        "title": "How does credit card interest work?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-does-credit-card-interest-work.html",
+        "doc_segment": "generic",
+        "snippet": "Download example\n*\nWhen interest is charged\nIf you don\u2019t pay your closing balance in full by the due date \u2013 that is, if you only pay the minimum amount shown on your statement, make a partial payment, or don\u2019t pay on time\u00a0 \u2013 you will be charged interest and lose your interest-free period.",
+        "segment_match": true
+      },
+      {
+        "score": 0.49629770294339304,
+        "title": "Credit card interest free period",
+        "url": "https://www.commbank.com.au/articles/credit-cards/make-the-most-of-your-credit-card-interest-free-period.html",
+        "doc_segment": "generic",
+        "snippet": "How to avoid paying interest\nIf you have been paying interest on purchases, you can regain your interest-free\n*\nperiod by:\nPaying your\naccount balance\nin full to get interest-free on all purchases from that day.\n1\nYour account balance is made up of everything you owe up until today, including any pu",
+        "segment_match": true
+      },
+      {
+        "score": 0.49106989214779884,
+        "title": "Credit card interest free period",
+        "url": "https://www.commbank.com.au/articles/credit-cards/make-the-most-of-your-credit-card-interest-free-period.html",
+        "doc_segment": "generic",
+        "snippet": "John will receive a late payment fee if he doesn\u2019t pay at least the minimum payment shown on his statement by the due date each month.\nWhat happens if you don\u2019t repay your closing balance in full?\nIf you do not pay your closing balance in full or just make a\nminimum repayment\n, you will lose your in",
+        "segment_match": true
+      },
+      {
+        "score": 0.4867713350681727,
+        "title": "How does credit card interest work?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-does-credit-card-interest-work.html",
+        "doc_segment": "generic",
+        "snippet": "Interest is charged to your account on the last day of your statement period.\nThe easiest way to avoid paying interest is to always pay your statement\u2019s closing balance on time, and not make any cash advances.\nIf you've been paying interest on purchases, you can regain your interest-free period by:\n",
+        "segment_match": true
+      },
+      {
+        "score": 0.46648007202739084,
+        "title": "How are credit card payments applied?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-are-credit-card-payments-applied.html",
+        "doc_segment": "generic",
+        "snippet": "If you\u2019re not able to pay the statement balance in full, your repayment will be allocated to part of your balance.\nWhat kinds of transactions make up your balance?\nYour\ncredit card balance\nmay be made up of transactions such as purchases, cash advances and balance transfers. Each of these may attrac",
+        "segment_match": true
+      },
+      {
+        "score": 0.4637895015121525,
+        "title": "How does credit card interest work?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-does-credit-card-interest-work.html",
+        "doc_segment": "generic",
+        "snippet": "there may still be interest owing. Your next statement will include any interest accrued from the start of your statement period up until the time we receive the payment.\nReduce the interest you pay\nHere are a few other tips to help you minimise interest:\nPay off as much as you can every month, as s",
+        "segment_match": true
+      },
+      {
+        "score": 0.44341107878865005,
+        "title": "Manage and control your credit card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/manage.html",
+        "doc_segment": "generic",
+        "snippet": "If you miss a monthly instalment payment, the unpaid instalment amount for that month will be returned to your main balance and charged interest at the standard purchase rate.",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "AG4",
+    "bucket": "answerable",
+    "request_segment": "personal",
+    "question": "How does the interest free period on credit cards work?",
+    "retrieval_query": "how does the interest free period on credit cards work? | how does the interest-free period on credit cards work?",
+    "query_notes": [
+      "interest free spelling expansion"
+    ],
+    "expected": "answer",
+    "answer": "Most credit cards offer an interest-free period on purchases up to a certain number of days. The interest-free period is the time between when you make a purchase and the due date for payment on your statement. To benefit from the interest-free period, you must pay the full amount owing by the due date and ensure you do not already owe money on your credit card from a previous statement. This allows you to avoid being charged interest on new purchases.",
+    "refused": false,
+    "refusal_reason": null,
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic",
+      "personal"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.6170253696009691,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.6170253696009691,
+        "title": "Credit card interest free period",
+        "url": "https://www.commbank.com.au/articles/credit-cards/make-the-most-of-your-credit-card-interest-free-period.html",
+        "doc_segment": "generic",
+        "snippet": "Credit card interest free period\nHow to make the most of your credit card's interest-free period\nTaking advantage of your card\u2019s interest-free period can help you smooth your cash flow.\nMost credit cards offer an interest-free period on purchases up to a certain number of days. This period is the ma",
+        "segment_match": true
+      },
+      {
+        "score": 0.5727504002682144,
+        "title": "Credit card interest free period",
+        "url": "https://www.commbank.com.au/articles/credit-cards/make-the-most-of-your-credit-card-interest-free-period.html",
+        "doc_segment": "generic",
+        "snippet": "An interest-free period is a period of time when no\ninterest is charged\non a new purchase, and may automatically apply when you open a new credit card account. It will continue to apply as long as you pay your\nclosing balance\nin full by the due date each and every month.\nMost credit cards offer an i",
+        "segment_match": true
+      },
+      {
+        "score": 0.5592806889526178,
+        "title": "Credit card definitions",
+        "url": "https://www.commbank.com.au/articles/credit-cards/credit-card-definitions.html",
+        "doc_segment": "generic",
+        "snippet": "Interest free period\nMost credit cards offer an\ninterest free period\non purchases up to a certain number of days. Your interest free period is the time between when you make a purchase and the due date for payment on your statement \u2013 as long as you pay the full amount owing by the due date and don\u2019t",
+        "segment_match": true
+      },
+      {
+        "score": 0.5476544807908876,
+        "title": "Credit card interest free period",
+        "url": "https://www.commbank.com.au/articles/credit-cards/make-the-most-of-your-credit-card-interest-free-period.html",
+        "doc_segment": "generic",
+        "snippet": "Read more about\nhow credit card interest is calculated\n.\nHow it works\nMost\nCommBank credit cards\noffer an interest-free period on purchases of up to 44 or up to 55 days.\u00a0Excludes\u00a0our\nBusiness\u00a0Low Rate\u00a0credit\u00a0card\nwhich doesn\u2019t have an\u00a0interest free period.",
+        "segment_match": true
+      },
+      {
+        "score": 0.5356909714005249,
+        "title": "Credit card interest free period",
+        "url": "https://www.commbank.com.au/articles/credit-cards/make-the-most-of-your-credit-card-interest-free-period.html",
+        "doc_segment": "generic",
+        "snippet": "Business\u00a0Low Rate\u00a0credit\u00a0card\nwhich doesn\u2019t have an\u00a0interest free period.\nEach statement period runs for about 30 days. Then, it\u2019s 14 days for Awards credit cards and 25 days for non-Awards credit cards from when your statement period finishes to the payment due date. If you\u2019re eligible for an inter",
+        "segment_match": true
+      },
+      {
+        "score": 0.5303495748481937,
+        "title": "Credit card interest - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/credit-card-interest.html",
+        "doc_segment": "personal",
+        "snippet": "1\nand we've recently introduced our Interest-free Low Fee credit card\n2\n. Both credit cards offer 0% p.a. on purchases, all for a simple monthly fee so you never have to worry about surprise interest charges.\nTell me more\nHow is credit card interest calculated and charged?\nKnowing how we work out yo",
+        "segment_match": true
+      },
+      {
+        "score": 0.5200480842820095,
+        "title": "Credit card definitions",
+        "url": "https://www.commbank.com.au/articles/credit-cards/credit-card-definitions.html",
+        "doc_segment": "generic",
+        "snippet": "Interest\nInterest is what a borrower pays a lender for the use of their money. How much interest you\u2019ll pay depends on the type of card you have, the transactions you make and when you make payments.\nInterest free period\nMost credit cards offer an\ninterest free period",
+        "segment_match": true
+      },
+      {
+        "score": 0.5153158782780549,
+        "title": "How to choose your first credit card",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-to-choose-your-first-credit-card.html",
+        "doc_segment": "generic",
+        "snippet": "Many credit cards come with an\ninterest-free period\n,\u00a0meaning you won\u2019t be charged any interest on purchases you make during that period, as long as you pay your closing balance in full by the due date every month. Interest-free cards don\u2019t incur interest charges, but may incur monthly or annual fee",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "AG5",
+    "bucket": "answerable",
+    "request_segment": "personal",
+    "question": "What should I do if I suspect credit card fraud?",
+    "retrieval_query": "what should i do if i suspect credit card fraud?",
+    "query_notes": [],
+    "expected": "answer",
+    "answer": "If you suspect credit card fraud, you should follow these steps:\n\n1. Notify your bank immediately by calling them on 13 2221, available 24 hours a day, 7 days a week. If you are overseas, you can make a reverse-charges call to +61 2 9999 3283.\n\n2. Keep close track of your credit card activities and monitor for any unexpected changes. \n\n3. Speak to your bank to possibly put a hold on your account and discuss the potential for reimbursement, provided you haven't contributed to the loss and have protected your card and PIN. \n\n4. If you believe you have been a victim of identity theft, also contact the police and the credit providers\u2019 fraud department for further investigation.",
+    "refused": false,
+    "refusal_reason": null,
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.5276804570788474,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.5276804570788474,
+        "title": "What should you do if you suspect credit card fraud?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/what-should-you-do-if-you-suspect-credit-card-fraud.html",
+        "doc_segment": "generic",
+        "snippet": "What should you do if you suspect credit card fraud?\nWhat should you do if you suspect credit card fraud?\nCredit card fraud and scams are increasingly common in the digital age. Know what to do should something go wrong.\nEveryone has heard stories about mysterious \u201cprinces\u201d and other scams designed ",
+        "segment_match": true
+      },
+      {
+        "score": 0.44254133642277926,
+        "title": "What should you do if you suspect credit card fraud?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/what-should-you-do-if-you-suspect-credit-card-fraud.html",
+        "doc_segment": "generic",
+        "snippet": "While it\u2019s important to stay on top of publicised scams like these, it\u2019s also a good idea to keep close track of your finances \u2013 and in particular, your credit card activity \u2013 so you\u2019re always across any unexpected changes.\nIf you notice something unusual with your credit card or you\u2019re contacted ab",
+        "segment_match": true
+      },
+      {
+        "score": 0.4201332057686893,
+        "title": "Card security",
+        "url": "https://www.commbank.com.au/credit-cards/manage/card-security.html",
+        "doc_segment": "generic",
+        "snippet": "3. What happens if I suspect fraud or have a dispute on my card?\nNotify us immediately, on 13 2221, 24 hours a day, 7 days a week. If you are overseas and have an urgent card security issue,\u00a0make a reverse-charges call to +61 2 9999 3283.\nFind out more\nabout what you can do if you suspect credit car",
+        "segment_match": true
+      },
+      {
+        "score": 0.40253731798387615,
+        "title": "What should you do if you suspect credit card fraud?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/what-should-you-do-if-you-suspect-credit-card-fraud.html",
+        "doc_segment": "generic",
+        "snippet": "Tell your family and friends\nOne of the best ways to prevent fraud from happening, or at least minimise its impact, is to talk about it with your family and friends so they know what to do should it also happen to them.\nTips on how to keep your credit card safe\nFind out how\nThings you should know",
+        "segment_match": true
+      },
+      {
+        "score": 0.39657054649334034,
+        "title": "What should you do if you suspect credit card fraud?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/what-should-you-do-if-you-suspect-credit-card-fraud.html",
+        "doc_segment": "generic",
+        "snippet": "Speak to your bank\nGet in touch with your bank immediately \u2013 they should be able to put a hold on your account and also reimburse your money provided you haven\u2019t contributed to the loss and have protected your card and PIN if there has been fraudulent activity. And while the technology that scammers",
+        "segment_match": true
+      },
+      {
+        "score": 0.3877899671025202,
+        "title": "How to understand & check your credit score",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-to-understand-and-check-your-credit-score.html",
+        "doc_segment": "generic",
+        "snippet": "And if you think you have been a victim of identity theft, contact the police and credit providers\u2019 fraud department so they can investigate this for you.\nExplore our credit card options\nDiscover credit cards\nRelated articles\nTips to improve your credit score\nTips for keeping your credit card secure",
+        "segment_match": true
+      },
+      {
+        "score": 0.3555455206492607,
+        "title": "Card security",
+        "url": "https://www.commbank.com.au/credit-cards/manage/card-security.html",
+        "doc_segment": "generic",
+        "snippet": "Someone has found out your codes such as PINs, passwords and other codes.\nThere has been unauthorised access to your account or you believe there is an error or unauthorised transaction.\nTo notify us of any account security issues, simply call 13 2221\n,\n24 hours a day, 7 days a week or +61 2 9999 32",
+        "segment_match": true
+      },
+      {
+        "score": 0.32948662997715716,
+        "title": "Card security",
+        "url": "https://www.commbank.com.au/credit-cards/manage/card-security.html",
+        "doc_segment": "generic",
+        "snippet": "hoax@cba.com.au\nimmediately for investigation.\nKeeping your cards and devices safe\nSign your cards as soon as you receive them and regularly check they are still in your possession.\nDon\u2019t let anyone else use your cards or devices or hold them for you.\nTake your cash, cards, devices and receipts with",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "AP1",
+    "bucket": "answerable",
+    "request_segment": "personal",
+    "question": "What is the annual fee on a smart awards card?",
+    "retrieval_query": "what is the annual fee on a smart awards card? | what is the monthly fee on a smart awards card?",
+    "query_notes": [
+      "annual fee + monthly fee expansion"
+    ],
+    "expected": "answer",
+    "answer": "The context specifies a monthly fee rather than an annual fee for the Smart Awards credit cards. The monthly fee is $19, and it is waived if you spend at least $2,000 during the statement period. The fee is based on monthly billing, thus not directly stating an annual fee.",
+    "refused": false,
+    "refusal_reason": null,
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic",
+      "personal"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.6897531495278217,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.6897531495278217,
+        "title": "Credit Card Offers - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/awards-credit-card-offer.html",
+        "doc_segment": "personal",
+        "snippet": "2\nFor Smart Awards credit cards, there is no monthly fee if you spend at least $2,000 on your Smart Awards credit card in your statement period to qualify for no monthly fee for that month. Otherwise the monthly fee is $19. Spend includes all purchases and cash advances made using your Smart Awards ",
+        "segment_match": true
+      },
+      {
+        "score": 0.679773597663988,
+        "title": "Qantas Credit Card Frequent Flyer Program - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/qantas-frequent-flyer.html",
+        "doc_segment": "generic",
+        "snippet": "For Smart Awards credit cards, there is no monthly fee if you spend at least $2,000 on your Smart Awards credit card in your statement period to qualify for no monthly fee for that month. Otherwise the monthly fee is $19. Spend includes all purchases and cash advances made using your Smart Awards cr",
+        "segment_match": true
+      },
+      {
+        "score": 0.6794411222495098,
+        "title": "Smart Awards Qantas Points Credit Card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/smart-credit-card-qantas.html",
+        "doc_segment": "personal",
+        "snippet": "3\nFor Smart Awards credit cards, there is no monthly fee if you spend at least $2,000 on your Smart Awards credit card in your statement period to qualify for no monthly fee for that month. Otherwise the monthly fee is $19. Spend includes all purchases and cash advances made using your Smart Awards ",
+        "segment_match": true
+      },
+      {
+        "score": 0.6753498855177089,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "8\nFor Smart Awards credit cards, there is no monthly fee if you spend at least $2,000 on your Smart Awards credit card in your statement period to qualify for no monthly fee for that month. Otherwise the monthly fee is $19. Spend includes all purchases and cash advances made using your Smart Awards ",
+        "segment_match": true
+      },
+      {
+        "score": 0.5702994345867605,
+        "title": "Smart Awards Credit Card | Earn Reward Points - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/smart-awards.html",
+        "doc_segment": "personal",
+        "snippet": "qantas.com/terms\n.\n3\nFor Smart Awards credit cards, there is no monthly fee if you spend at least $2,000 on your Smart Awards credit card in your statement period to qualify for no monthly fee for that month. Otherwise the monthly fee is $19. Spend includes all purchases and cash advances made using",
+        "segment_match": true
+      },
+      {
+        "score": 0.41566450186162474,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "$14 per month \u2013 equivalent to\u00a0$168 per year\n$0 p.a.\nUp to 44 days\n20.99% p.a.\n21.99% p.a.\nPlatinum Awards\n$25 per month\n\u2013 equivalent to\u00a0$300 per year\n$0 p.a.\nUp to 44 days\n20.99% p.a.\n21.99% p.a.\nDiamond Awards\n$32 per month \u2013 equivalent to\u00a0$384 per year\n$0 p.a.\nUp to 44 days\n20.99% p.a.\n21.99% p.a.",
+        "segment_match": true
+      },
+      {
+        "score": 0.4076653671890451,
+        "title": "CommBank Awards Cards | Earn Points and Redeem Rewards",
+        "url": "https://www.commbank.com.au/credit-cards/awards-credit-cards.html",
+        "doc_segment": "personal",
+        "snippet": "Smart Awards\nand\nUltimate Awards\ncredit cards the fee is waived if spend criteria is met\nHigher interest rates on purchases compared to our\nLow Rate\nand\nLow Fee\ncredit cards. May not be suitable if you only make minimum repayments over a prolonged period of time\nInternational transaction fees apply ",
+        "segment_match": true
+      },
+      {
+        "score": 0.4060389624518582,
+        "title": "CommBank Awards Cards | Earn Points and Redeem Rewards",
+        "url": "https://www.commbank.com.au/credit-cards/awards-credit-cards.html",
+        "doc_segment": "personal",
+        "snippet": "5\nEnjoy access to over 1,300 airport lounges worldwide for a fee with\nMastercard Travel Pass\nprovided by DragonPass with your Smart Awards credit card\n6\nPay no additional cardholder fee\nUp to\u202f44 days\u00a0interest-free on purchases\nPriceless.com\noffers and experiences\n20.99% p.a. purchase interest rate\nM",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "AB1",
+    "bucket": "answerable",
+    "request_segment": "business",
+    "question": "What is the annual fee on a Awards credit card?",
+    "retrieval_query": "what is the annual fee on a business awards credit card? | what is the monthly fee on a business awards credit card?",
+    "query_notes": [
+      "add business product prefix",
+      "annual fee + monthly fee expansion"
+    ],
+    "expected": "answer",
+    "answer": "The annual fee on the Business Awards credit card is $100.",
+    "refused": false,
+    "refusal_reason": null,
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "business",
+      "generic"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.4420613681119372,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.4420613681119372,
+        "title": "Business credit cards",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/cards-for-larger-business.html",
+        "doc_segment": "business",
+        "snippet": "Business Awards credit card\nPurchase interest rate\n20.74% p.a.\nAnnual fee\n$100\nMin. credit limit\n$500\nMax. credit limit\n$50,000 unsecured\n2\nInterest free period on purchases\nUp to 55 days\nWhat you'll get\nEarn up to 60,000 CommBank Awards Points\n4\nor opt-in to earn up to 24,000 Qantas Points for $30 ",
+        "segment_match": true
+      },
+      {
+        "score": 0.44025343689821383,
+        "title": "Qantas Credit Card Frequent Flyer Program - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/qantas-frequent-flyer.html",
+        "doc_segment": "generic",
+        "snippet": "7\nFor Ultimate Awards credit cards, there is no monthly fee if you spend at least $4,000 on your Ultimate Awards credit card in your statement period to qualify for no monthly fee for that month. Otherwise the monthly fee is $35. Spend includes all purchases and cash advances made using your Ultimat",
+        "segment_match": true
+      },
+      {
+        "score": 0.4324712320549199,
+        "title": "Qantas Credit Card Frequent Flyer Program - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/qantas-frequent-flyer.html",
+        "doc_segment": "generic",
+        "snippet": "For Smart Awards credit cards, there is no monthly fee if you spend at least $2,000 on your Smart Awards credit card in your statement period to qualify for no monthly fee for that month. Otherwise the monthly fee is $19. Spend includes all purchases and cash advances made using your Smart Awards cr",
+        "segment_match": true
+      },
+      {
+        "score": 0.42082964029348324,
+        "title": "Business credit cards",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/cards-for-larger-business.html",
+        "doc_segment": "business",
+        "snippet": "Business credit cards\nBusiness\n/\nBusiness credit cards\nBusiness credit cards\nExplore our range of business, awards cards and corporate products to help you manage and track your expenses.\nBusiness cards\nBusiness credit cards\nFor business owners looking for a competitive interest rate or interest-fre",
+        "segment_match": true
+      },
+      {
+        "score": 0.39652329987615964,
+        "title": "Business Platinum Awards credit card - CommBank",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/business-awards-platinum-credit-card.html",
+        "doc_segment": "business",
+        "snippet": "$300\nAdditional cardholder fee\n$75\u00a0p.a.\nMinimum credit limit\n$6,000\nQantas Points opt-in fee\n$30 per year. Applies to each credit card account earning Qantas Points, charged once per year when you opt-in and each subsequent year on or around the anniversary of your opt-in date.\nOther fees may apply.",
+        "segment_match": true
+      },
+      {
+        "score": 0.38478097714678194,
+        "title": "Business credit cards",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/cards-for-larger-business.html",
+        "doc_segment": "business",
+        "snippet": "3\nMore about Business Awards credit card\nApply now\nClose\n\u00d7\nAlready a customer banking online with us?\nSave time by using your NetBank details or CommBank App.\nApply online\nor\nNew customer or don't bank online with us?\nGet started\nBusiness Platinum Awards credit card\nPurchase interest rate\n20.74% p.a",
+        "segment_match": true
+      },
+      {
+        "score": 0.368174318043368,
+        "title": "Business Interest-Free Days credit card - CommBank",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/business-interest-free-days-credit-card.html",
+        "doc_segment": "business",
+        "snippet": "3\nInterest-free period\nUp to 55 days\nAnnual fee\n$60\nAdditional cardholder fee\n$60 p.a.\nMinimum credit limit\n$500\nOther fees may apply. For full details, refer to the\nPersonal Liability Business Credit Cards Standard Fees and Charges (PDF)\n.\nFrequently asked questions\nFrequently asked questions\nAm I ",
+        "segment_match": true
+      },
+      {
+        "score": 0.35466823399750647,
+        "title": "Things to consider before getting a business credit card - CommBank",
+        "url": "https://www.commbank.com.au/business/articles/business-credit-card-considerations.html",
+        "doc_segment": "business",
+        "snippet": "Awards\n\u2013 these cards can be suitable should you choose to pay your total balance in full each month and want to earn rewards for using your card. They usually have higher annual fees than other card types.\nAll CommBank business credit cards offer up to 55 days interest free on purchases, except the ",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "AP2",
+    "bucket": "answerable",
+    "request_segment": "personal",
+    "question": "What is the minimum payment on a Low Rate card?",
+    "retrieval_query": "what is the minimum repayment on a low rate card?",
+    "query_notes": [
+      "minimum payment -> minimum repayment"
+    ],
+    "expected": "answer",
+    "answer": "For CommBank credit cards, including Low Rate cards, the minimum repayment amount is the greater of:\n- Any amount you owe that exceeds your credit limit (excluding any amount by which your credit limit was exceeded in a previous statement period, and which remains unpaid);\n- 2% of the closing balance, rounded down to the nearest dollar; or\n- $25\n\nFor CommBank Business Cards (other than an Awards card), these specific conditions would apply differently, setting the threshold at $75 and the minimum payment percentage at 2.5%. However, since Low Rate cards are not specified as business cards, the general conditions of 2% or $25 apply.",
+    "refused": false,
+    "refusal_reason": null,
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic",
+      "personal"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.5606298938671486,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.5606298938671486,
+        "title": "What's a credit card minimum repayment? - CommBank",
+        "url": "https://www.commbank.com.au/articles/credit-cards/credit-card-minimum-repayment.html",
+        "doc_segment": "generic",
+        "snippet": "How much is the minimum repayment?\nThe minimum repayment will differ depending on your credit card provider and the amount you owe. For CommBank credit cards (that are not business credit cards), the minimum repayment amount is the greater of:\nAny amount you owe that exceeds your credit limit (exclu",
+        "segment_match": true
+      },
+      {
+        "score": 0.5095434459060029,
+        "title": "What's a credit card minimum repayment? - CommBank",
+        "url": "https://www.commbank.com.au/articles/credit-cards/credit-card-minimum-repayment.html",
+        "doc_segment": "generic",
+        "snippet": "What's a credit card minimum repayment? - CommBank\nWhat's a credit card minimum repayment?\nFind out about credit card minimum repayments.\nThe minimum monthly repayment on a credit card is the lowest amount you have to pay to meet your credit agreement.\nPaying your minimum monthly amount by the due d",
+        "segment_match": true
+      },
+      {
+        "score": 0.47942745744939197,
+        "title": "Understanding credit card statements - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/manage/credit-card-statements.html",
+        "doc_segment": "generic",
+        "snippet": "Repayments & offers\nMinimum repayment warning:\u00a0this table illustrates how long it will take you to pay off your balance including any applicable interest charges by paying only the minimum payment versus the saving you would make by paying more than the minimum payment over a 2 year period. You can ",
+        "segment_match": true
+      },
+      {
+        "score": 0.444453243911779,
+        "title": "What's a credit card minimum repayment? - CommBank",
+        "url": "https://www.commbank.com.au/articles/credit-cards/credit-card-minimum-repayment.html",
+        "doc_segment": "generic",
+        "snippet": ");\n2% of the closing balance, rounded down to the nearest dollar; or\n$25\nIf you have a CommBank Business Card (other than an Awards card):\nThe threshold amount is $75 (rather than $25); and\nThe minimum payment percentage is 2.5% (rather than 2%)\nShould you repay more than the minimum repayment?\nIf y",
+        "segment_match": true
+      },
+      {
+        "score": 0.4409360894035448,
+        "title": "How to choose your first credit card",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-to-choose-your-first-credit-card.html",
+        "doc_segment": "generic",
+        "snippet": "Low rate\n:\u00a0May best suit those who carry a balance over from month to month, and want to minimise the amount of interest paid on purchases. Low-rate cards have a higher annual fee than some other card types\nAwards",
+        "segment_match": true
+      },
+      {
+        "score": 0.4407911885383644,
+        "title": "What to teach your teen about credit",
+        "url": "https://www.commbank.com.au/articles/credit-cards/teach-your-teens-about-credit.html",
+        "doc_segment": "generic",
+        "snippet": "If you pay the minimum repayment each month \u2013 interest will be charged on anything left owing.\nIf you miss the repayment date or minimum repayment amount \u2013 typically a late fee will be charged, plus interest on everything owing.\nMost personal CommBank credit cards offer up to 44 or up to 55 days int",
+        "segment_match": true
+      },
+      {
+        "score": 0.43449853761514234,
+        "title": "How do credit cards work?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-do-credit-cards-work.html",
+        "doc_segment": "generic",
+        "snippet": "Low Rate\n: Low-rate credit cards typically have a lower purchase interest rate than some other cards. These cards are suited to people who expect they\u2019ll carry over a balance from month to month rather than paying it off in full, and would like to minimise the interest they\u2019ll pay on this balance. L",
+        "segment_match": true
+      },
+      {
+        "score": 0.4301785277896243,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "All customers with an existing CommBank Low Rate credit card, and customers who switch from an existing CommBank credit card to a Low Rate credit card will be offered or will retain an interest rate of 13.99% p.a. This rate may be varied at any time during the term of the credit contract.\nPlease ref",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "AB2",
+    "bucket": "answerable",
+    "request_segment": "business",
+    "question": "What is the minimum payment on a Low Rate card?",
+    "retrieval_query": "what is the minimum repayment on a business low rate card?",
+    "query_notes": [
+      "add business product prefix",
+      "minimum payment -> minimum repayment"
+    ],
+    "expected": "answer",
+    "answer": "For CommBank credit cards (that are not business credit cards), the minimum repayment amount is the greater of any amount you owe that exceeds your credit limit (excluding any amount by which your credit limit was exceeded in a previous statement period, and which remains unpaid); 2% of the closing balance, rounded down to the nearest dollar; or $25.",
+    "refused": false,
+    "refusal_reason": null,
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "business",
+      "generic"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.532977430852848,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.532977430852848,
+        "title": "What's a credit card minimum repayment? - CommBank",
+        "url": "https://www.commbank.com.au/articles/credit-cards/credit-card-minimum-repayment.html",
+        "doc_segment": "generic",
+        "snippet": "How much is the minimum repayment?\nThe minimum repayment will differ depending on your credit card provider and the amount you owe. For CommBank credit cards (that are not business credit cards), the minimum repayment amount is the greater of:\nAny amount you owe that exceeds your credit limit (exclu",
+        "segment_match": true
+      },
+      {
+        "score": 0.48860961201282394,
+        "title": "What's a credit card minimum repayment? - CommBank",
+        "url": "https://www.commbank.com.au/articles/credit-cards/credit-card-minimum-repayment.html",
+        "doc_segment": "generic",
+        "snippet": ");\n2% of the closing balance, rounded down to the nearest dollar; or\n$25\nIf you have a CommBank Business Card (other than an Awards card):\nThe threshold amount is $75 (rather than $25); and\nThe minimum payment percentage is 2.5% (rather than 2%)\nShould you repay more than the minimum repayment?\nIf y",
+        "segment_match": true
+      },
+      {
+        "score": 0.4418548907010823,
+        "title": "What's a credit card minimum repayment? - CommBank",
+        "url": "https://www.commbank.com.au/articles/credit-cards/credit-card-minimum-repayment.html",
+        "doc_segment": "generic",
+        "snippet": "What's a credit card minimum repayment? - CommBank\nWhat's a credit card minimum repayment?\nFind out about credit card minimum repayments.\nThe minimum monthly repayment on a credit card is the lowest amount you have to pay to meet your credit agreement.\nPaying your minimum monthly amount by the due d",
+        "segment_match": true
+      },
+      {
+        "score": 0.41128944825195135,
+        "title": "Business credit cards",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/cards-for-larger-business.html",
+        "doc_segment": "business",
+        "snippet": "The CommBank Neo Business card, Low Rate credit card, Interest-Free Days credit card, Business Awards credit card and Business Platinum Awards credit card are\u00a0personal liability business credit cards. By applying, you (the individual that is applying for a Business credit card) acknowledge that the ",
+        "segment_match": true
+      },
+      {
+        "score": 0.41081462185662765,
+        "title": "Business Interest-Free Days credit card - CommBank",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/business-interest-free-days-credit-card.html",
+        "doc_segment": "business",
+        "snippet": "3\nInterest-free period\nUp to 55 days\nAnnual fee\n$60\nAdditional cardholder fee\n$60 p.a.\nMinimum credit limit\n$500\nOther fees may apply. For full details, refer to the\nPersonal Liability Business Credit Cards Standard Fees and Charges (PDF)\n.\nFrequently asked questions\nFrequently asked questions\nAm I ",
+        "segment_match": true
+      },
+      {
+        "score": 0.4097131561176439,
+        "title": "Business credit cards",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/cards-for-larger-business.html",
+        "doc_segment": "business",
+        "snippet": "Purchase interest rate\n14.55%\u00a0p.a.\nAnnual fee\n$24\u2013$40 per card\n7\nMax. credit limit\nTailored to your business\nInterest free period on purchases\nN/A\nWhat you'll get\nAdd unlimited cardholders\nCustomise transaction & spending limits for each cardholder online\nReduced interest rate for residentially or c",
+        "segment_match": true
+      },
+      {
+        "score": 0.4043907256471426,
+        "title": "Business low rate credit card - CommBank",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/business-low-rate-credit-card.html",
+        "doc_segment": "business",
+        "snippet": "Business low rate credit card - CommBank\nBusiness\n/\nBusiness credit cards\n/\nBusiness low rate credit card\nBusiness Low Rate credit card\nClose\n\u00d7\nAlready a customer banking online with us?\nSave time by using your NetBank details or CommBank App.\nApply online\nor\nNew customer or don't bank online with u",
+        "segment_match": true
+      },
+      {
+        "score": 0.40020389986291893,
+        "title": "Credit card cash advance - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/manage/cash-advances.html",
+        "doc_segment": "generic",
+        "snippet": "Interest-free Low Fee credit card terms and conditions\n.\nThings you should know\n1\nA maximum charge of $300 or a flat fee of $4.00 applies if your closing balance on previous business day was in credit. For cash advances made via NetBank transfers, CommBank App transfers, or ATMs, the fee will be $0 ",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "AP3",
+    "bucket": "answerable",
+    "request_segment": "personal",
+    "question": "How will I be charged for withdrawing cash from my credit card?",
+    "retrieval_query": "how will i be charged for withdrawing cash from my credit card?",
+    "query_notes": [],
+    "expected": "answer",
+    "answer": "When you withdraw cash from your credit card, you will be charged a cash advance fee of $4.00 or 3.00% of the transaction amount, whichever is greater, up to a maximum charge of $300. If your closing balance was in credit the previous business day, a flat fee of $4.00 applies. Additionally, you will be charged interest at the cash advance rate on the amount you withdrew.",
+    "refused": false,
+    "refusal_reason": null,
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic",
+      "personal"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.466846033113011,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.466846033113011,
+        "title": "How to minimise credit card fees",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-to-minimise-credit-card-fees.html",
+        "doc_segment": "generic",
+        "snippet": "You\u2019ll also be charged a cash advance fee to withdraw money or make \u2018cash equivalent\u2019 transactions like using your card for gambling or buying lottery tickets or foreign money.\nAvoid the fee by only using a debit card, not your credit card, to withdraw money.\nLate payment fees\nYou\u2019ll often be charge",
+        "segment_match": true
+      },
+      {
+        "score": 0.4415206240455424,
+        "title": "Credit card cash advance - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/manage/cash-advances.html",
+        "doc_segment": "generic",
+        "snippet": "Gambling\u00a0and other cash equivalent transactions\nFees and interest\nFees and interest\nEach time you make a cash advance transaction using your credit card you\u2019ll be charged a fee. The fee charged is $4.00 or 3.00% of the transaction amount - up to a maximum of $300, whichever is greater (or $4.00 will",
+        "segment_match": true
+      },
+      {
+        "score": 0.4366446551413171,
+        "title": "What makes up your credit card balance?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/what-makes-up-your-credit-card-balance.html",
+        "doc_segment": "generic",
+        "snippet": "Cash advances\nIf you use your credit card to make a cash withdrawal, transfer funds from your credit card or make a cash equivalent transaction (such as using your card for gambling, buying lotto tickets or foreign currency), you\u2019ll be charged interest at the cash advance rate for that transaction.",
+        "segment_match": true
+      },
+      {
+        "score": 0.35683268540278346,
+        "title": "How to minimise credit card fees",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-to-minimise-credit-card-fees.html",
+        "doc_segment": "generic",
+        "snippet": "How to minimise credit card fees\nHow to minimise credit card fees\nCredit cards come with extra costs. Make sure you know what they are and how to avoid or at least minimise them.\nCash advance fees\nIf you withdraw money from your credit card, you\u2019ll be charged a cash advance fee, plus cash advance in",
+        "segment_match": true
+      },
+      {
+        "score": 0.33695884474965354,
+        "title": "Low Fee Credit Card | Our lowest monthly fee card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/low-fee.html",
+        "doc_segment": "personal",
+        "snippet": "3\nA maximum charge of $300 (or a flat fee of $4.00 applies if your closing balance on previous business day was in credit. For cash advances made via NetBank transfers, CommBank App transfers, or ATMs, the fee will be $0 if your closing balance was in credit the previous business day).\n4",
+        "segment_match": true
+      },
+      {
+        "score": 0.33152801258478226,
+        "title": "Low Rate Credit Card | Up to 55 days interest free - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/low-rate.html",
+        "doc_segment": "personal",
+        "snippet": "Additional cardholder fee\n$0\nMonthly fee\n$6 per month\nCash advance interest rate\n21.99% p.a.\nCash advances may be unavailable or subject to a limit restriction.\nCash advance fee\n$4.00 or 3.00% of the transaction amount \u2013 whichever is greater\n1",
+        "segment_match": true
+      },
+      {
+        "score": 0.32325724147354995,
+        "title": "Our Ultimate Awards Credit Card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/ultimate.html",
+        "doc_segment": "personal",
+        "snippet": "mastercard travel rewards\n12\nA maximum charge of\u00a0$300 or a flat fee of $4.00 applies if your closing balance on previous business day was in credit. For cash advances made via NetBank transfers, CommBank App transfers, or ATMs, the fee will be $0 if your closing balance was in credit the previous bu",
+        "segment_match": true
+      },
+      {
+        "score": 0.3216565041671062,
+        "title": "Low Rate Credit Card | Up to 55 days interest free - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/low-rate.html",
+        "doc_segment": "personal",
+        "snippet": "1\nA maximum charge of\u00a0$300 (or a flat fee of $4.00 applies if your closing balance on previous business day was in credit. For cash advances made via NetBank transfers, CommBank App transfers, or ATMs, the fee will be $0 if your closing balance was in credit the previous business day).\n2",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "AB3",
+    "bucket": "answerable",
+    "request_segment": "business",
+    "question": "How will I be charged for cash advances on a Business Low Rate card?",
+    "retrieval_query": "how will i be charged for cash advances on a business low rate card?",
+    "query_notes": [],
+    "expected": "answer",
+    "answer": "Each time you make a cash advance transaction using your credit card, you'll be charged a fee of $4.00 or 3.00% of the transaction amount, up to a maximum of $300, whichever is greater. Additionally, you will be charged interest on your cash advances, calculated per day and payable each month. Note that there is no interest-free period with cash advances.",
+    "refused": false,
+    "refusal_reason": null,
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "business",
+      "generic"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.527557177546953,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.527557177546953,
+        "title": "Business Interest-Free Days credit card - CommBank",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/business-interest-free-days-credit-card.html",
+        "doc_segment": "business",
+        "snippet": "3\nFor a full list of cash advance charges, refer to the\nPersonal Liability Business Credit Cards Standard Fees and Charges (PDF)\n.\nNote",
+        "segment_match": true
+      },
+      {
+        "score": 0.503038964922165,
+        "title": "Credit card cash advance - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/manage/cash-advances.html",
+        "doc_segment": "generic",
+        "snippet": "Gambling\u00a0and other cash equivalent transactions\nFees and interest\nFees and interest\nEach time you make a cash advance transaction using your credit card you\u2019ll be charged a fee. The fee charged is $4.00 or 3.00% of the transaction amount - up to a maximum of $300, whichever is greater (or $4.00 will",
+        "segment_match": true
+      },
+      {
+        "score": 0.46532794577649705,
+        "title": "Business Interest-Free Days credit card - CommBank",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/business-interest-free-days-credit-card.html",
+        "doc_segment": "business",
+        "snippet": "Personal Liability Business Credit Cards Standard Fees and Charges (PDF)\n.\nNote\n: For cash advances and balance enquiries made through a non-Commonwealth Bank ATM in Australia, the ATM owner may charge you a fee, which will be disclosed at the time of the transaction. If you proceed with the transac",
+        "segment_match": true
+      },
+      {
+        "score": 0.46474615067965275,
+        "title": "Things to consider before getting a business credit card - CommBank",
+        "url": "https://www.commbank.com.au/business/articles/business-credit-card-considerations.html",
+        "doc_segment": "business",
+        "snippet": "Cash advance fee \u2013 applies if you withdraw cash with your credit card.\nCheck out the terms and conditions or schedule of standard fees and charges to see the full list of fees and charges.\n5. Check liability\nMany business credit cards are personal liability business credit cards. This means the pers",
+        "segment_match": true
+      },
+      {
+        "score": 0.46308813580608266,
+        "title": "What makes up your credit card balance?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/what-makes-up-your-credit-card-balance.html",
+        "doc_segment": "generic",
+        "snippet": "Cash advances\nIf you use your credit card to make a cash withdrawal, transfer funds from your credit card or make a cash equivalent transaction (such as using your card for gambling, buying lotto tickets or foreign currency), you\u2019ll be charged interest at the cash advance rate for that transaction.",
+        "segment_match": true
+      },
+      {
+        "score": 0.44929663330210534,
+        "title": "Credit card cash advance - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/manage/cash-advances.html",
+        "doc_segment": "generic",
+        "snippet": "1\n).\nAs well as the fee, you'll also be\ncharged interest on your cash advances\n(interest is calculated per day and is payable each month). Note that there is no interest-free period with cash advances.\nBefore considering a cash advance you should look at more cost-effective options available to you.",
+        "segment_match": true
+      },
+      {
+        "score": 0.4386085296945307,
+        "title": "How to find the right finance option for your business",
+        "url": "https://www.commbank.com.au/business/articles/should-you-choose-a-business-credit-card-overdraft-or-loan.html",
+        "doc_segment": "business",
+        "snippet": "However, if you\u2019re looking for a permanent solution to help manage cash flow, a credit card is generally not the best option. Rates on business credit cards are generally higher than other financing options \u2013 which means you could end up paying a lot more in interest. Credit cards typically have ann",
+        "segment_match": true
+      },
+      {
+        "score": 0.4325480236129067,
+        "title": "Credit card cash advance - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/manage/cash-advances.html",
+        "doc_segment": "generic",
+        "snippet": "Interest-free Low Fee credit card terms and conditions\n.\nThings you should know\n1\nA maximum charge of $300 or a flat fee of $4.00 applies if your closing balance on previous business day was in credit. For cash advances made via NetBank transfers, CommBank App transfers, or ATMs, the fee will be $0 ",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "AP4",
+    "bucket": "answerable",
+    "request_segment": "personal",
+    "question": "What is the interest free period on a Awards card?",
+    "retrieval_query": "what is the interest free period on a awards card? | what is the interest-free period on a awards card?",
+    "query_notes": [
+      "interest free spelling expansion"
+    ],
+    "expected": "answer",
+    "answer": "The interest-free period on an Awards card is up to 44 days.",
+    "refused": false,
+    "refusal_reason": null,
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic",
+      "personal"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.619665996100722,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.619665996100722,
+        "title": "Credit card interest free period",
+        "url": "https://www.commbank.com.au/articles/credit-cards/make-the-most-of-your-credit-card-interest-free-period.html",
+        "doc_segment": "generic",
+        "snippet": "Business\u00a0Low Rate\u00a0credit\u00a0card\nwhich doesn\u2019t have an\u00a0interest free period.\nEach statement period runs for about 30 days. Then, it\u2019s 14 days for Awards credit cards and 25 days for non-Awards credit cards from when your statement period finishes to the payment due date. If you\u2019re eligible for an inter",
+        "segment_match": true
+      },
+      {
+        "score": 0.504344547848487,
+        "title": "Credit card interest free period",
+        "url": "https://www.commbank.com.au/articles/credit-cards/make-the-most-of-your-credit-card-interest-free-period.html",
+        "doc_segment": "generic",
+        "snippet": "An interest-free period is a period of time when no\ninterest is charged\non a new purchase, and may automatically apply when you open a new credit card account. It will continue to apply as long as you pay your\nclosing balance\nin full by the due date each and every month.\nMost credit cards offer an i",
+        "segment_match": true
+      },
+      {
+        "score": 0.48832579513495156,
+        "title": "Credit card interest free period",
+        "url": "https://www.commbank.com.au/articles/credit-cards/make-the-most-of-your-credit-card-interest-free-period.html",
+        "doc_segment": "generic",
+        "snippet": "Credit card interest free period\nHow to make the most of your credit card's interest-free period\nTaking advantage of your card\u2019s interest-free period can help you smooth your cash flow.\nMost credit cards offer an interest-free period on purchases up to a certain number of days. This period is the ma",
+        "segment_match": true
+      },
+      {
+        "score": 0.4838546888575218,
+        "title": "Credit card definitions",
+        "url": "https://www.commbank.com.au/articles/credit-cards/credit-card-definitions.html",
+        "doc_segment": "generic",
+        "snippet": "Interest free period\nMost credit cards offer an\ninterest free period\non purchases up to a certain number of days. Your interest free period is the time between when you make a purchase and the due date for payment on your statement \u2013 as long as you pay the full amount owing by the due date and don\u2019t",
+        "segment_match": true
+      },
+      {
+        "score": 0.4590319231053942,
+        "title": "CommBank Awards Cards | Earn Points and Redeem Rewards",
+        "url": "https://www.commbank.com.au/credit-cards/awards-credit-cards.html",
+        "doc_segment": "personal",
+        "snippet": "Smart Awards\nand\nUltimate Awards\ncredit cards the fee is waived if spend criteria is met\nHigher interest rates on purchases compared to our\nLow Rate\nand\nLow Fee\ncredit cards. May not be suitable if you only make minimum repayments over a prolonged period of time\nInternational transaction fees apply ",
+        "segment_match": true
+      },
+      {
+        "score": 0.4370352299864676,
+        "title": "CommBank Awards Cards | Earn Points and Redeem Rewards",
+        "url": "https://www.commbank.com.au/credit-cards/awards-credit-cards.html",
+        "doc_segment": "personal",
+        "snippet": "1\n. After spending $2,000, the Awards point earn rate is 0.5 Awards points per $1 spent\nEarn unlimited Awards points per year\nMonthly fee: $8 per month\n20.99% p.a.\u00a0purchase interest rate\nMinimum credit limit of\u00a0$500\nUp to\u202f44 days\u00a0interest-free on purchases\nPay no additional cardholder fee\nMore on Aw",
+        "segment_match": true
+      },
+      {
+        "score": 0.42367429968687753,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "Low Rate\n$0\n$0\nNone\n14.55% p.a.\n14.55% p.a.\nInterest-Free Days\n$60 per year\n$60 p.a.\nUp to 55 days\n17.57% p.a.\n17.57% p.a.\nAwards\n$100 per year\n$75\u00a0p.a.\nUp to 55 days\n20.74% p.a.\n21.74% p.a.\nPlatinum Awards\n$300 per year\n$75\u00a0p.a.\nUp to 55 days\n20.74% p.a.\n21.74%\u00a0p.a.\nFor full details, see the\nPerson",
+        "segment_match": true
+      },
+      {
+        "score": 0.4191257275018848,
+        "title": "How does credit card interest work?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-does-credit-card-interest-work.html",
+        "doc_segment": "generic",
+        "snippet": ".\nInterest-free periods on purchases\nMost\nCommBank credit cards\ncome with an\ninterest-free period\non purchases\u00a0of up to 44 or up to 55 days, meaning you won\u2019t be charged any interest on purchases, so long as you pay your closing balance in full by the due date every month.\nDownload example\n*\nWhen in",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "AB4",
+    "bucket": "answerable",
+    "request_segment": "business",
+    "question": "What is the interest-free period on a Awards card?",
+    "retrieval_query": "what is the interest-free period on a business awards card?",
+    "query_notes": [
+      "add business product prefix"
+    ],
+    "expected": "answer",
+    "answer": "The interest-free period on a Business Awards credit card is up to 55 days.",
+    "refused": false,
+    "refusal_reason": null,
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "business",
+      "generic"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.5895796790254629,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.5895796790254629,
+        "title": "Credit card interest free period",
+        "url": "https://www.commbank.com.au/articles/credit-cards/make-the-most-of-your-credit-card-interest-free-period.html",
+        "doc_segment": "generic",
+        "snippet": "Business\u00a0Low Rate\u00a0credit\u00a0card\nwhich doesn\u2019t have an\u00a0interest free period.\nEach statement period runs for about 30 days. Then, it\u2019s 14 days for Awards credit cards and 25 days for non-Awards credit cards from when your statement period finishes to the payment due date. If you\u2019re eligible for an inter",
+        "segment_match": true
+      },
+      {
+        "score": 0.554008371084996,
+        "title": "Things to consider before getting a business credit card - CommBank",
+        "url": "https://www.commbank.com.au/business/articles/business-credit-card-considerations.html",
+        "doc_segment": "business",
+        "snippet": "Interest-free period\n\u2013 this type of business credit card gives you a period of time where you pay no interest on purchases. It can help with your short-term cash flow if you have a gap between when your bills are due and when you receive payment from customers.\nLow rate\n\u2013 this card type may suit if ",
+        "segment_match": true
+      },
+      {
+        "score": 0.5435251011611844,
+        "title": "Business Interest-Free Days credit card - CommBank",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/business-interest-free-days-credit-card.html",
+        "doc_segment": "business",
+        "snippet": "3\nInterest-free period\nUp to 55 days\nAnnual fee\n$60\nAdditional cardholder fee\n$60 p.a.\nMinimum credit limit\n$500\nOther fees may apply. For full details, refer to the\nPersonal Liability Business Credit Cards Standard Fees and Charges (PDF)\n.\nFrequently asked questions\nFrequently asked questions\nAm I ",
+        "segment_match": true
+      },
+      {
+        "score": 0.5321843957512671,
+        "title": "Business credit cards",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/cards-for-larger-business.html",
+        "doc_segment": "business",
+        "snippet": "Business credit cards\nBusiness\n/\nBusiness credit cards\nBusiness credit cards\nExplore our range of business, awards cards and corporate products to help you manage and track your expenses.\nBusiness cards\nBusiness credit cards\nFor business owners looking for a competitive interest rate or interest-fre",
+        "segment_match": true
+      },
+      {
+        "score": 0.5258460997911076,
+        "title": "Business Interest-Free Days credit card - CommBank",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/business-interest-free-days-credit-card.html",
+        "doc_segment": "business",
+        "snippet": "Business Interest-Free Days credit card - CommBank\nBusiness\n/\nBusiness credit cards\n/\nBusiness Interest-Free Days credit card\nBusiness Interest-Free Days credit card\nDesigned for those looking for a card with a competitive interest-free period to help with business cash flow.\nClose\n\u00d7\nAlready a custo",
+        "segment_match": true
+      },
+      {
+        "score": 0.4847530067866831,
+        "title": "Things to consider before getting a business credit card - CommBank",
+        "url": "https://www.commbank.com.au/business/articles/business-credit-card-considerations.html",
+        "doc_segment": "business",
+        "snippet": "Many cards have an interest-free period, so make sure you take advantage of this. All CommBank business credit cards, except the Business Low Rate card, offer up to 55 days interest free on purchases.\n4. Understand the fees\nOther charges to think about include:\nAnnual fee \u2013 this is a yearly fee char",
+        "segment_match": true
+      },
+      {
+        "score": 0.4669347522291264,
+        "title": "Business credit cards",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/cards-for-larger-business.html",
+        "doc_segment": "business",
+        "snippet": "Business Awards credit card\nPurchase interest rate\n20.74% p.a.\nAnnual fee\n$100\nMin. credit limit\n$500\nMax. credit limit\n$50,000 unsecured\n2\nInterest free period on purchases\nUp to 55 days\nWhat you'll get\nEarn up to 60,000 CommBank Awards Points\n4\nor opt-in to earn up to 24,000 Qantas Points for $30 ",
+        "segment_match": true
+      },
+      {
+        "score": 0.46555073401772573,
+        "title": "Business credit cards",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/cards-for-larger-business.html",
+        "doc_segment": "business",
+        "snippet": "Purchase interest rate\n17.57%\u00a0p.a.\nAnnual fee\n$24\u2013$40 per card\n7\nMax. credit limit\nTailored to your business\nInterest free period on purchases\nUp to 55 interest-free days\nWhat you'll get\nAdd unlimited cardholders\nCustomise transaction & spending limits for each cardholder online\nNo establishment fee",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "AP5",
+    "bucket": "answerable",
+    "request_segment": "personal",
+    "question": "What is the interest rate on a Low Rate card?",
+    "retrieval_query": "what is the interest rate on a low rate card? | what is the purchase interest rate on a low rate card?",
+    "query_notes": [
+      "interest rate clarification"
+    ],
+    "expected": "answer",
+    "answer": "New customers who apply for a Low Rate credit card from 10 December 2024, will be offered a personalised interest rate on purchases ranging from 10.99% p.a. to 15.99% p.a.",
+    "refused": false,
+    "refusal_reason": null,
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic",
+      "personal"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.59446239142545,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.59446239142545,
+        "title": "How do credit cards work?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-do-credit-cards-work.html",
+        "doc_segment": "generic",
+        "snippet": "Low Rate\n: Low-rate credit cards typically have a lower purchase interest rate than some other cards. These cards are suited to people who expect they\u2019ll carry over a balance from month to month rather than paying it off in full, and would like to minimise the interest they\u2019ll pay on this balance. L",
+        "segment_match": true
+      },
+      {
+        "score": 0.5107498572977787,
+        "title": "What makes up your credit card balance?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/what-makes-up-your-credit-card-balance.html",
+        "doc_segment": "generic",
+        "snippet": "charged interest\nat the purchase rate for any new purchases, along with your outstanding balance.\nInterest-free cards generally come with a 0% purchase rate, meaning you won\u2019t be charged interest on your purchases.\nCash advances",
+        "segment_match": true
+      },
+      {
+        "score": 0.5060949064671445,
+        "title": "Personalised Interest Rates on Low Rate credit cards - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/low-rate-personalised-rates.html",
+        "doc_segment": "personal",
+        "snippet": "Once your facility is established, your personalised interest rate will appear as the Purchase Interest Rate for your Low Rate credit card in NetBank; viewable under the Account Information tab for your Low Rate credit card facility. Your personalised interest rate will also appear as your Purchase ",
+        "segment_match": true
+      },
+      {
+        "score": 0.5027928694737099,
+        "title": "Credit Card Offers - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/awards-credit-card-offer.html",
+        "doc_segment": "personal",
+        "snippet": "Once your credit contract is entered into, your personalised interest rate will be reviewed periodically and may change upon review. We may also vary the range of rates available for new Low Rate credit cards at any time. We\u2019ll notify you as outlined in the conditions of use if your personalised int",
+        "segment_match": true
+      },
+      {
+        "score": 0.4953724953248819,
+        "title": "Credit card interest - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/credit-card-interest.html",
+        "doc_segment": "personal",
+        "snippet": "1\nand we've recently introduced our Interest-free Low Fee credit card\n2\n. Both credit cards offer 0% p.a. on purchases, all for a simple monthly fee so you never have to worry about surprise interest charges.\nTell me more\nHow is credit card interest calculated and charged?\nKnowing how we work out yo",
+        "segment_match": true
+      },
+      {
+        "score": 0.4935812542631689,
+        "title": "Personalised Interest Rates on Low Rate credit cards - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/low-rate-personalised-rates.html",
+        "doc_segment": "personal",
+        "snippet": "Personalised Interest Rates on Low Rate credit cards - CommBank\nCredit Cards\n/\nPersonalised Interest Rates on Low Rate credit cards\nPersonalised Interest Rates on Low Rate credit cards\nNew\u00a0customers who apply for a Low Rate credit card from 10 December 2024, will be offered a personalised interest r",
+        "segment_match": true
+      },
+      {
+        "score": 0.4870558262956213,
+        "title": "How to choose your first credit card",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-to-choose-your-first-credit-card.html",
+        "doc_segment": "generic",
+        "snippet": "Low rate\n:\u00a0May best suit those who carry a balance over from month to month, and want to minimise the amount of interest paid on purchases. Low-rate cards have a higher annual fee than some other card types\nAwards",
+        "segment_match": true
+      },
+      {
+        "score": 0.4753959006550824,
+        "title": "Personalised Interest Rates on Low Rate credit cards - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/low-rate-personalised-rates.html",
+        "doc_segment": "personal",
+        "snippet": "here\n.\nWill I receive a personalised interest rate if I switch to a new Low Rate credit card\n?\nFrom 10 December 2024, all customers who switch to a Low Rate credit card from an existing CommBank credit card, will be offered an interest rate of 13.99% p.a.\nWhat happens if I lose my Low Rate credit ca",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "AB5",
+    "bucket": "answerable",
+    "request_segment": "business",
+    "question": "What is the interest rate on a Low Rate card?",
+    "retrieval_query": "what is the interest rate on a business low rate card? | what is the purchase interest rate on a business low rate card?",
+    "query_notes": [
+      "add business product prefix",
+      "interest rate clarification"
+    ],
+    "expected": "answer",
+    "answer": "The purchase interest rate on a Low Rate card is 14.55% p.a.",
+    "refused": false,
+    "refusal_reason": null,
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "business",
+      "generic"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.5032179625877908,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.5032179625877908,
+        "title": "Business credit cards",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/cards-for-larger-business.html",
+        "doc_segment": "business",
+        "snippet": "Purchase interest rate\n14.55%\u00a0p.a.\nAnnual fee\n$24\u2013$40 per card\n7\nMax. credit limit\nTailored to your business\nInterest free period on purchases\nN/A\nWhat you'll get\nAdd unlimited cardholders\nCustomise transaction & spending limits for each cardholder online\nReduced interest rate for residentially or c",
+        "segment_match": true
+      },
+      {
+        "score": 0.4995148983307751,
+        "title": "How do credit cards work?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-do-credit-cards-work.html",
+        "doc_segment": "generic",
+        "snippet": "Low Rate\n: Low-rate credit cards typically have a lower purchase interest rate than some other cards. These cards are suited to people who expect they\u2019ll carry over a balance from month to month rather than paying it off in full, and would like to minimise the interest they\u2019ll pay on this balance. L",
+        "segment_match": true
+      },
+      {
+        "score": 0.4808499557334832,
+        "title": "Business credit cards",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/cards-for-larger-business.html",
+        "doc_segment": "business",
+        "snippet": "Business credit cards\nBusiness\n/\nBusiness credit cards\nBusiness credit cards\nExplore our range of business, awards cards and corporate products to help you manage and track your expenses.\nBusiness cards\nBusiness credit cards\nFor business owners looking for a competitive interest rate or interest-fre",
+        "segment_match": true
+      },
+      {
+        "score": 0.44675703279823287,
+        "title": "Business credit cards",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/cards-for-larger-business.html",
+        "doc_segment": "business",
+        "snippet": "Purchase interest rate\n17.57%\u00a0p.a.\nAnnual fee\n$24\u2013$40 per card\n7\nMax. credit limit\nTailored to your business\nInterest free period on purchases\nUp to 55 interest-free days\nWhat you'll get\nAdd unlimited cardholders\nCustomise transaction & spending limits for each cardholder online\nNo establishment fee",
+        "segment_match": true
+      },
+      {
+        "score": 0.42943960924153124,
+        "title": "What makes up your credit card balance?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/what-makes-up-your-credit-card-balance.html",
+        "doc_segment": "generic",
+        "snippet": "charged interest\nat the purchase rate for any new purchases, along with your outstanding balance.\nInterest-free cards generally come with a 0% purchase rate, meaning you won\u2019t be charged interest on your purchases.\nCash advances",
+        "segment_match": true
+      },
+      {
+        "score": 0.42476902193009947,
+        "title": "Things to consider before getting a business credit card - CommBank",
+        "url": "https://www.commbank.com.au/business/articles/business-credit-card-considerations.html",
+        "doc_segment": "business",
+        "snippet": "Interest-free period\n\u2013 this type of business credit card gives you a period of time where you pay no interest on purchases. It can help with your short-term cash flow if you have a gap between when your bills are due and when you receive payment from customers.\nLow rate\n\u2013 this card type may suit if ",
+        "segment_match": true
+      },
+      {
+        "score": 0.41034291432809367,
+        "title": "Business low rate credit card - CommBank",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/business-low-rate-credit-card.html",
+        "doc_segment": "business",
+        "snippet": "Business low rate credit card - CommBank\nBusiness\n/\nBusiness credit cards\n/\nBusiness low rate credit card\nBusiness Low Rate credit card\nClose\n\u00d7\nAlready a customer banking online with us?\nSave time by using your NetBank details or CommBank App.\nApply online\nor\nNew customer or don't bank online with u",
+        "segment_match": true
+      },
+      {
+        "score": 0.4089250943441872,
+        "title": "Business credit cards",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/cards-for-larger-business.html",
+        "doc_segment": "business",
+        "snippet": "Purchase interest rate\n0%\nAnnual fee\n$24\u2013$40 per card\n7\nMax. credit limit\nTailored to your business\nInterest free period on purchases\nUp to 31 days\nWhat you'll get\nIssue an unlimited number of cards to employees\nCustomise transaction & spending limits for each cardholder online\nBalances debited mont",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "AP6",
+    "bucket": "answerable",
+    "request_segment": "personal",
+    "question": "What is the interest rate on a CommBank Neo card?",
+    "retrieval_query": "what is the interest rate on a commbank neo card? | what is the purchase interest rate on a commbank neo card?",
+    "query_notes": [
+      "interest rate clarification"
+    ],
+    "expected": "answer",
+    "answer": "The interest rate on a CommBank Neo card is 0% p.a.",
+    "refused": false,
+    "refusal_reason": null,
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic",
+      "personal"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.617054661660684,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.617054661660684,
+        "title": "CommBank Neo | Interest Free Credit Card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/commbank-neo.html",
+        "doc_segment": "personal",
+        "snippet": "CommBank Neo | Interest Free Credit Card - CommBank\nCredit Cards\n/\nCommBank Neo card\nCommBank Neo Interest-Free Credit Card\nMeet CommBank Neo, a new way to pay. A 0% p.a. interest rate credit card without any late fees or surprise charges - just a simple monthly fee. Say goodbye to percentages and c",
+        "segment_match": true
+      },
+      {
+        "score": 0.5398454705519407,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "Credit card fees and charges - CommBank\nCredit Cards\n/\nFees and charges\nCredit card fees and charges\nAn easy guide to our credit card fees and charges.\nPersonal Credit Card Standard Fees and Charges\nAs at 1 December 2023\nCredit card type\nAnnual or monthly fee\n1\nAdditional cardholder fee\nInterest fre",
+        "segment_match": true
+      },
+      {
+        "score": 0.5268849774600527,
+        "title": "Low Rate Credit Card | Up to 55 days interest free - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/low-rate.html",
+        "doc_segment": "personal",
+        "snippet": "CommBank Neo\ncredit card\nInternational travel insurance isn't included\nInternational transaction fees apply\nPersonalised Interest Rates\nAbout Personalised Interest Rates on Low Rate credit cards\nNew\u00a0customers who apply for a Low Rate credit card from 10 December 2024, will be offered a personalised ",
+        "segment_match": true
+      },
+      {
+        "score": 0.5178240372329381,
+        "title": "How to get a credit card",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-to-get-a-credit-card.html",
+        "doc_segment": "generic",
+        "snippet": "There are generally three types of credit cards:\nlow fee\n,\nlow rate\nand\nawards\n.\nIn addition, CommBank Neo is an interest-free card with no late fees or surprise charges. Just a simple monthly fee.\nIt\u2019s worth taking the time to consider\nwhat it is you really want from your credit\ncard before\u00a0you app",
+        "segment_match": true
+      },
+      {
+        "score": 0.5146737288941429,
+        "title": "What to teach your teen about credit",
+        "url": "https://www.commbank.com.au/articles/credit-cards/teach-your-teens-about-credit.html",
+        "doc_segment": "generic",
+        "snippet": "As outlined above, CommBank has three interest-free cards -\nCommBank Neo\n,\nInterest-free Low Fee credit\nand\nStepPay\n. These are alternatives that may be considered.\nA personal loan on the other hand is where they will borrow a fixed amount over a set period of time for a certain interest rate. This ",
+        "segment_match": true
+      },
+      {
+        "score": 0.5138261557705888,
+        "title": "Credit card interest free period",
+        "url": "https://www.commbank.com.au/articles/credit-cards/make-the-most-of-your-credit-card-interest-free-period.html",
+        "doc_segment": "generic",
+        "snippet": "interest rates and charges\non your CommBank\nmonthly statement\n. The\npurchase interest rate\nis the one most commonly advertised by lenders, and refers to the rate charged on purchases made with a credit card if an\ninterest-free period\ndoesn\u2019t apply.\nWhat's an interest-free period and how is it calcul",
+        "segment_match": true
+      },
+      {
+        "score": 0.5044804292880861,
+        "title": "Credit card interest - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/credit-card-interest.html",
+        "doc_segment": "personal",
+        "snippet": "Tell me more\nMake the most of interest-free periods\nMost CommBank credit cards come with an interest-free period on purchases of up to 44 or up to 55 days. Taking advantage of your card\u2019s interest-free period can help you smooth your cash flow.\nKeep reading\nInterest-free credit cards\nWe currently ha",
+        "segment_match": true
+      },
+      {
+        "score": 0.5035218413655544,
+        "title": "What to teach your teen about credit",
+        "url": "https://www.commbank.com.au/articles/credit-cards/teach-your-teens-about-credit.html",
+        "doc_segment": "generic",
+        "snippet": "To avoid interest you can:\nTake up a card that doesn\u2019t charge interest. CommBank has three interest-free cards CommBank Neo, Interest-free Low Fee credit card, and StepPay.\nCommBank Neo\nis an interest-free card with no late fees or surprise charges. Just a simple monthly fee.\nInterest-free Low Fee\ni",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "AP7",
+    "bucket": "answerable",
+    "request_segment": "personal",
+    "question": "What\u2019s the difference between Low Rate and Awards credit cards?",
+    "retrieval_query": "what\u2019s the difference between low rate and awards credit cards?",
+    "query_notes": [],
+    "expected": "answer",
+    "answer": "Low Rate credit cards typically have a lower purchase interest rate compared to other card types, making them suitable for individuals who carry a balance month-to-month and want to minimize the amount of interest paid. However, these cards feature a higher annual fee compared to some other card types.\n\nOn the other hand, Awards credit cards have a higher interest rate on purchases than Low Rate credit cards and are suitable for earning rewards through spending. Awards cards allow cardholders to earn 1 Awards point per $1 spent on eligible purchases up to $2,000 in a statement period. After this threshold, the rate decreases. Additionally, these cards are not suitable if only minimum repayments are made over a prolonged period. International transaction fees also apply to Awards credit cards.",
+    "refused": false,
+    "refusal_reason": null,
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic",
+      "personal"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.597599971415995,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.597599971415995,
+        "title": "How do credit cards work?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-do-credit-cards-work.html",
+        "doc_segment": "generic",
+        "snippet": "Low Rate\n: Low-rate credit cards typically have a lower purchase interest rate than some other cards. These cards are suited to people who expect they\u2019ll carry over a balance from month to month rather than paying it off in full, and would like to minimise the interest they\u2019ll pay on this balance. L",
+        "segment_match": true
+      },
+      {
+        "score": 0.5503395722158198,
+        "title": "How to choose your first credit card",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-to-choose-your-first-credit-card.html",
+        "doc_segment": "generic",
+        "snippet": "Low rate\n:\u00a0May best suit those who carry a balance over from month to month, and want to minimise the amount of interest paid on purchases. Low-rate cards have a higher annual fee than some other card types\nAwards",
+        "segment_match": true
+      },
+      {
+        "score": 0.5253303066590314,
+        "title": "CommBank Awards Cards | Earn Points and Redeem Rewards",
+        "url": "https://www.commbank.com.au/credit-cards/awards-credit-cards.html",
+        "doc_segment": "personal",
+        "snippet": "Smart Awards\nand\nUltimate Awards\ncredit cards the fee is waived if spend criteria is met\nHigher interest rates on purchases compared to our\nLow Rate\nand\nLow Fee\ncredit cards. May not be suitable if you only make minimum repayments over a prolonged period of time\nInternational transaction fees apply ",
+        "segment_match": true
+      },
+      {
+        "score": 0.49441824852774674,
+        "title": "CommBank Awards Card | Awards Points Credit Card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/awards.html",
+        "doc_segment": "personal",
+        "snippet": "Low Fee\nand\nLow Rate\ncredit cards\nHigher interest rate on purchases compared to our\nLow Rate\ncredit cards. May not be\u00a0suitable if you only make\u00a0minimum repayments over\u00a0a prolonged\u00a0period of time\u200b\nLower points earning potential than our\nSmart Awards\nand\nUltimate Awards\ncard\nAfter spending $2,000 in a",
+        "segment_match": true
+      },
+      {
+        "score": 0.45928080024585105,
+        "title": "Credit Card Offers - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/awards-credit-card-offer.html",
+        "doc_segment": "personal",
+        "snippet": "Compare our Low Rate, Low Fee, Interest free and Awards credit cards.\nCredit card comparison tool\nHelp me choose the right credit card\nWe'll ask up to 4 simple questions. Once you're done, we'll show you a card that may suit your needs.\nCredit card selector tool\nShow me all personal credit cards\nCom",
+        "segment_match": true
+      },
+      {
+        "score": 0.45103717170505975,
+        "title": "Smart Awards Credit Card | Earn Reward Points - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/smart-awards.html",
+        "doc_segment": "personal",
+        "snippet": "15\n.\nTrade-offs\nHigher monthly fee compared to the\nAwards credit card\nHigher interest rates on purchases compared to our\nLow Rate\ncredit cards. May not be suitable if you only\u00a0make minimum repayments over a\u00a0prolonged\u00a0period of time\nAfter spending $5,000 in a given statement period, the Awards point ",
+        "segment_match": true
+      },
+      {
+        "score": 0.44138781932588456,
+        "title": "Credit card interest free period",
+        "url": "https://www.commbank.com.au/articles/credit-cards/make-the-most-of-your-credit-card-interest-free-period.html",
+        "doc_segment": "generic",
+        "snippet": "Business\u00a0Low Rate\u00a0credit\u00a0card\nwhich doesn\u2019t have an\u00a0interest free period.\nEach statement period runs for about 30 days. Then, it\u2019s 14 days for Awards credit cards and 25 days for non-Awards credit cards from when your statement period finishes to the payment due date. If you\u2019re eligible for an inter",
+        "segment_match": true
+      },
+      {
+        "score": 0.4394121858019364,
+        "title": "How do credit cards points work?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-do-credit-card-points-work.html",
+        "doc_segment": "generic",
+        "snippet": "Because of the awards they offer, these credit cards generally carry a higher annual fee and/or purchase interest rate. So before signing up to one, it\u2019s important to understand exactly how they work and whether you\u2019ll earn enough in rewards points to make any extra costs worthwhile.\nPoints earned f",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "AP8",
+    "bucket": "answerable",
+    "request_segment": "personal",
+    "question": "Can I change my credit card limit after its issued?",
+    "retrieval_query": "can i change my credit card limit after its issued?",
+    "query_notes": [],
+    "expected": "answer",
+    "answer": "Yes, you can change your credit card limit after it's issued. You can set a spending cap, decrease your limit, or apply for an increase either through the CommBank app or NetBank. In NetBank, you would log on and go to Settings, then Product requests and click on Credit card limit changes. In the CommBank app, you tap on the Cards icon, choose your Credit card, and then Credit limit.",
+    "refused": false,
+    "refusal_reason": null,
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.5083171833485783,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.5083171833485783,
+        "title": "How do I change my credit card limit?",
+        "url": "https://www.commbank.com.au/support.credit-cards.change-credit-limit.html?ei=control_creditlimit",
+        "doc_segment": "generic",
+        "snippet": "Increasing your limit\nYou can apply for a credit limit increase anytime. If your application is approved, your new limit will be applied to your card instantly.\nDecreasing your limit",
+        "segment_match": true
+      },
+      {
+        "score": 0.42533421116863057,
+        "title": "Should you increase your credit card limit - CommBank",
+        "url": "https://www.commbank.com.au/articles/credit-cards/should-you-increase-your-credit-card-limit.html",
+        "doc_segment": "generic",
+        "snippet": "As well as higher credit card bills and interest payments, another possible risk of increasing your limit is that it can also impact your ability to get credit elsewhere. A request for an increased limit may appear on your credit report and reduce the amount of credit that another institution is wil",
+        "segment_match": true
+      },
+      {
+        "score": 0.42488686451853597,
+        "title": "How do I change my credit card limit?",
+        "url": "https://www.commbank.com.au/support.credit-cards.change-credit-limit.html?ei=control_creditlimit",
+        "doc_segment": "generic",
+        "snippet": "How do I change my credit card limit?\nSearch support and FAQs\nHow do I change my credit card limit?\nHow do I change my credit card limit?\nYou can set a spending cap, decrease your limit or apply for an increase in the CommBank app or\nNetBank\n.\nIn\nNetBank\n, Log on and go to Settings, then Product req",
+        "segment_match": true
+      },
+      {
+        "score": 0.39515125136973595,
+        "title": "How do I change my credit card limit?",
+        "url": "https://www.commbank.com.au/support.credit-cards.change-credit-limit.html?ei=control_creditlimit",
+        "doc_segment": "generic",
+        "snippet": "Decreasing your limit\nYou can permanently decrease your credit limit anytime. It is important to remember that you won\u2019t be able to change it back automatically, you\u2019ll need to reapply which is subject to verification.\u00a0 Each CommBank credit card has a minimum limit, if you\u2019d like to decrease your li",
+        "segment_match": true
+      },
+      {
+        "score": 0.3936716441059125,
+        "title": "Should you increase your credit card limit - CommBank",
+        "url": "https://www.commbank.com.au/articles/credit-cards/should-you-increase-your-credit-card-limit.html",
+        "doc_segment": "generic",
+        "snippet": "Are there other options?\nBefore committing to any credit card limit increase, it\u2019s important to fully understand your own financial situation, as well as reasonably anticipate your likely future spending patterns based on current and past behaviours. Obtaining your credit report can also be a smart ",
+        "segment_match": true
+      },
+      {
+        "score": 0.38516413414659456,
+        "title": "Should you increase your credit card limit - CommBank",
+        "url": "https://www.commbank.com.au/articles/credit-cards/should-you-increase-your-credit-card-limit.html",
+        "doc_segment": "generic",
+        "snippet": "Should you increase your credit card limit - CommBank\nShould you increase your credit card limit?\nAn increase to your credit card limit can come in very handy, but also comes with potential risks. Here are some things to think about before raising your limit.",
+        "segment_match": true
+      },
+      {
+        "score": 0.3655808538670987,
+        "title": "How to understand & check your credit score",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-to-understand-and-check-your-credit-score.html",
+        "doc_segment": "generic",
+        "snippet": "Should you increase your credit card limit?\nTags\nCredit cards\nThings you should know\nThis article is intended to provide general information of an educational nature only. It does not have regard to the financial situation or needs of any reader and must not be relied upon as financial product advic",
+        "segment_match": true
+      },
+      {
+        "score": 0.36374025884577943,
+        "title": "Should you increase your credit card limit - CommBank",
+        "url": "https://www.commbank.com.au/articles/credit-cards/should-you-increase-your-credit-card-limit.html",
+        "doc_segment": "generic",
+        "snippet": "Possible benefits of raising your credit card limit\nOne obvious advantage of upping your credit card limit is that you instantly have access to more funds. Also, many credit cards provide interest-free periods of up to 55 days, which, provided you repay your full balance within that time to avoid in",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "U1",
+    "bucket": "unanswerable",
+    "request_segment": "personal",
+    "question": "When is my next credit card payment due date?",
+    "retrieval_query": "when is my next credit card payment due date?",
+    "query_notes": [],
+    "expected": "refuse",
+    "answer": "I couldn't find this in the provided credit card pages.",
+    "refused": true,
+    "refusal_reason": "low_relevance",
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.3314041429970087,
+    "llm_called": false,
+    "topk": [
+      {
+        "score": 0.3314041429970087,
+        "title": "How does credit card interest work?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-does-credit-card-interest-work.html",
+        "doc_segment": "generic",
+        "snippet": "2\nPaying your\nclosing balance\nin full by the due date shown on your statement to get interest-free on new purchases in your next statement period. This is the amount you owe from your last statement period.\nDownload example\n^\nRemember, you don\u2019t need to wait until the due date to pay off your credit",
+        "segment_match": true
+      },
+      {
+        "score": 0.3185184184143791,
+        "title": "Credit card definitions",
+        "url": "https://www.commbank.com.au/articles/credit-cards/credit-card-definitions.html",
+        "doc_segment": "generic",
+        "snippet": "Any interest, charges or fees\nYour opening balance\nYour closing balance\nThe minimum amount due\nThe payment due date\nPayment due date\nYou\u2019ll find the payment due date on your monthly statement and you must pay each minimum payment by its due date.\nPersonal Identification Number (PIN)\nAll credit and d",
+        "segment_match": true
+      },
+      {
+        "score": 0.30617200490529484,
+        "title": "How does credit card interest work?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-does-credit-card-interest-work.html",
+        "doc_segment": "generic",
+        "snippet": "there may still be interest owing. Your next statement will include any interest accrued from the start of your statement period up until the time we receive the payment.\nReduce the interest you pay\nHere are a few other tips to help you minimise interest:\nPay off as much as you can every month, as s",
+        "segment_match": true
+      },
+      {
+        "score": 0.3000203773371902,
+        "title": "Credit card interest free period",
+        "url": "https://www.commbank.com.au/articles/credit-cards/make-the-most-of-your-credit-card-interest-free-period.html",
+        "doc_segment": "generic",
+        "snippet": "4. June 13 is John\u2019s payment due date. To avoid paying any interest on the purchases he\u2019s made, John must pay his closing balance in full by the payment due date. If he doesn\u2019t pay in full, he\u2019ll lose his interest-free period on purchases and interest will be charged on his unpaid balance (including",
+        "segment_match": true
+      },
+      {
+        "score": 0.2752859513795415,
+        "title": "What to teach your teen about credit",
+        "url": "https://www.commbank.com.au/articles/credit-cards/teach-your-teens-about-credit.html",
+        "doc_segment": "generic",
+        "snippet": "If you pay the minimum repayment each month \u2013 interest will be charged on anything left owing.\nIf you miss the repayment date or minimum repayment amount \u2013 typically a late fee will be charged, plus interest on everything owing.\nMost personal CommBank credit cards offer up to 44 or up to 55 days int",
+        "segment_match": true
+      },
+      {
+        "score": 0.2706991941497978,
+        "title": "Credit card definitions",
+        "url": "https://www.commbank.com.au/articles/credit-cards/credit-card-definitions.html",
+        "doc_segment": "generic",
+        "snippet": "Interest free period\nMost credit cards offer an\ninterest free period\non purchases up to a certain number of days. Your interest free period is the time between when you make a purchase and the due date for payment on your statement \u2013 as long as you pay the full amount owing by the due date and don\u2019t",
+        "segment_match": true
+      },
+      {
+        "score": 0.26471198143773433,
+        "title": "Credit card definitions",
+        "url": "https://www.commbank.com.au/articles/credit-cards/credit-card-definitions.html",
+        "doc_segment": "generic",
+        "snippet": "Late payment fee\nYou'll be charged a late payment fee if your credit card provider hasn\u2019t received your minimum payment by the due date on your statement.\nMinimum payment\nThe minimum amount you must pay by the payment due date.\nMonthly statement\nEach month you receive a statement, summarising your c",
+        "segment_match": true
+      },
+      {
+        "score": 0.258067952238477,
+        "title": "Common credit card mistakes to avoid",
+        "url": "https://www.commbank.com.au/articles/credit-cards/common-credit-card-mistakes-to-avoid.html",
+        "doc_segment": "generic",
+        "snippet": "3. Missing minimum payments\nIf you miss the minimum monthly payment on your credit card you may be charged a late payment fee, which can impact your\ncredit score\n. Keep the due date for your minimum payment front of mind each month to ensure you don\u2019t miss it. For CommBank cards you can set up\nAutoP",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "U2",
+    "bucket": "unanswerable",
+    "request_segment": "personal",
+    "question": "Should I close my credit card based on my current spending habits?",
+    "retrieval_query": "should i close my credit card based on my current spending habits?",
+    "query_notes": [],
+    "expected": "refuse",
+    "answer": "I couldn't find this in the provided credit card pages.",
+    "refused": true,
+    "refusal_reason": "llm_refusal",
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.41952763984928476,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.41952763984928476,
+        "title": "What's a credit card minimum repayment? - CommBank",
+        "url": "https://www.commbank.com.au/articles/credit-cards/credit-card-minimum-repayment.html",
+        "doc_segment": "generic",
+        "snippet": "A budget can help you assess whether there are any areas of your life where you feel you're overspending and could reduce your spending.\nAs part of your budget, try to set aside an amount to repay your credit card balance each month, and a date by which you'd like to make sure you've repaid the bala",
+        "segment_match": true
+      },
+      {
+        "score": 0.369214670852011,
+        "title": "Credit card interest free period",
+        "url": "https://www.commbank.com.au/articles/credit-cards/make-the-most-of-your-credit-card-interest-free-period.html",
+        "doc_segment": "generic",
+        "snippet": "How to take advantage of the interest-free\n*\nperiod\nPay your closing balance off in full each month\nSet reminders to make sure you pay your balance in time or use\nAutoPay\nTry to plan your spending so you make any bigger purchases at the start of the statement period to give yourself more time to rep",
+        "segment_match": true
+      },
+      {
+        "score": 0.3615115334965233,
+        "title": "Should you increase your credit card limit - CommBank",
+        "url": "https://www.commbank.com.au/articles/credit-cards/should-you-increase-your-credit-card-limit.html",
+        "doc_segment": "generic",
+        "snippet": "Are there other options?\nBefore committing to any credit card limit increase, it\u2019s important to fully understand your own financial situation, as well as reasonably anticipate your likely future spending patterns based on current and past behaviours. Obtaining your credit report can also be a smart ",
+        "segment_match": true
+      },
+      {
+        "score": 0.33124238339242396,
+        "title": "Should you increase your credit card limit - CommBank",
+        "url": "https://www.commbank.com.au/articles/credit-cards/should-you-increase-your-credit-card-limit.html",
+        "doc_segment": "generic",
+        "snippet": "Paying for day-to-day expenses on your credit card and taking advantage of the interest-free period will mean that funds you\u2019ve set aside to cover these purchases can be working for you \u2013 perhaps in a\nsavings account with bonus interest rate\n, or\nhome loan offset account\n.\nIn the meantime, you can t",
+        "segment_match": true
+      },
+      {
+        "score": 0.33101386317979786,
+        "title": "Spend Tracker - Expense tracker  - CommBank",
+        "url": "https://www.commbank.com.au/digital-banking/spend-tracker-insights.html",
+        "doc_segment": "generic",
+        "snippet": "Knowing exactly what you\u2019re spending (and if you\u2019re overspending) can help you get into the habit of building up, rather than dipping into, your savings.\nTurn\nTransaction Notifications\non to see, check and track your debit and credit card spending.\nSee where you're spending the most\nIdentify your to",
+        "segment_match": true
+      },
+      {
+        "score": 0.32042181223997956,
+        "title": "How do credit cards points work?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-do-credit-card-points-work.html",
+        "doc_segment": "generic",
+        "snippet": "Keep in mind that while it can be great to earn more and more points, it\u2019s also important to stay on top of your credit card balance and ensure you\u2019re always making your repayments.\nDepending on your financial situation and spending habits, a\nlow-rate\nor\nlow-fee\ncredit card may be more suitable than",
+        "segment_match": true
+      },
+      {
+        "score": 0.31912866263396833,
+        "title": "How does credit card interest work?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-does-credit-card-interest-work.html",
+        "doc_segment": "generic",
+        "snippet": "there may still be interest owing. Your next statement will include any interest accrued from the start of your statement period up until the time we receive the payment.\nReduce the interest you pay\nHere are a few other tips to help you minimise interest:\nPay off as much as you can every month, as s",
+        "segment_match": true
+      },
+      {
+        "score": 0.31656288893717066,
+        "title": "Should you choose a credit card or personal loan?",
+        "url": "https://www.commbank.com.au/articles/personal-loans/should-you-choose-a-credit-card-or-personal-loan.html",
+        "doc_segment": "generic",
+        "snippet": "How will you be spending?\nWith a credit card, you\u2019re given a credit limit. You can spend up to that limit, and all CommBank personal credit cards come with up to 55 days interest free on purchases, meaning you won't be charged interest on things you buy with your card provided you pay the full state",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "U3",
+    "bucket": "unanswerable",
+    "request_segment": "personal",
+    "question": "Should I take a balance transfer before applying for a mortgage next year?",
+    "retrieval_query": "should i take a balance transfer before applying for a mortgage next year?",
+    "query_notes": [],
+    "expected": "refuse",
+    "answer": "I couldn't find this in the provided credit card pages.",
+    "refused": true,
+    "refusal_reason": "low_relevance",
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.31573246958096046,
+    "llm_called": false,
+    "topk": [
+      {
+        "score": 0.31573246958096046,
+        "title": "What makes up your credit card balance?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/what-makes-up-your-credit-card-balance.html",
+        "doc_segment": "generic",
+        "snippet": "A balance transfer is when you transfer a balance owing on a personal credit issued by another bank or a store card to your CommBank credit card. With CommBank there\u2019s no fee charged to make the transfer and a special interest rate may apply from the date the transfer is made for an introductory per",
+        "segment_match": true
+      },
+      {
+        "score": 0.3022255847449772,
+        "title": "Credit card definitions",
+        "url": "https://www.commbank.com.au/articles/credit-cards/credit-card-definitions.html",
+        "doc_segment": "generic",
+        "snippet": "Balance transfer\nFrom 1 December 2023, balance transfers will no longer be offered on our credit cards. Balances already transferred will continue on the promotional rate until the amount is fully repaid or the balance transfer period ends, whichever comes first.\nAn amount we pay to your credit or s",
+        "segment_match": true
+      },
+      {
+        "score": 0.27723212425638044,
+        "title": "Credit card interest free period",
+        "url": "https://www.commbank.com.au/articles/credit-cards/make-the-most-of-your-credit-card-interest-free-period.html",
+        "doc_segment": "generic",
+        "snippet": "How to take advantage of the interest-free\n*\nperiod\nPay your closing balance off in full each month\nSet reminders to make sure you pay your balance in time or use\nAutoPay\nTry to plan your spending so you make any bigger purchases at the start of the statement period to give yourself more time to rep",
+        "segment_match": true
+      },
+      {
+        "score": 0.2745379291121701,
+        "title": "What makes up your credit card balance?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/what-makes-up-your-credit-card-balance.html",
+        "doc_segment": "generic",
+        "snippet": "There\u2019s no interest-free period on cash advances, so interest begins to accrue immediately. You'll also usually be charged a cash advance fee. On certain types of credit cards, cash advances are blocked.\nBalance transfers\nFrom 1 December 2023, balance transfers will no longer be offered on our credi",
+        "segment_match": true
+      },
+      {
+        "score": 0.25490533701991647,
+        "title": "How to get a credit card",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-to-get-a-credit-card.html",
+        "doc_segment": "generic",
+        "snippet": "So before you apply for a credit card, it could be worth considering whether you can get by with a debit card instead.\nBuild up your credit history\nA\ngood credit score\ncan be crucial when applying for a credit card or any type of loan.",
+        "segment_match": true
+      },
+      {
+        "score": 0.2340033661442118,
+        "title": "Should you choose a credit card or personal loan?",
+        "url": "https://www.commbank.com.au/articles/personal-loans/should-you-choose-a-credit-card-or-personal-loan.html",
+        "doc_segment": "generic",
+        "snippet": "Do you need to borrow?\nThis is the key question to ask before borrowing money. Think about whether you need to make the purchase up front and in full, or if you need access to additional funds to help manage your cash flow. If you\u2019re thinking of buying something, do you really need to purchase it no",
+        "segment_match": true
+      },
+      {
+        "score": 0.22118667809944292,
+        "title": "Credit card interest free period",
+        "url": "https://www.commbank.com.au/articles/credit-cards/make-the-most-of-your-credit-card-interest-free-period.html",
+        "doc_segment": "generic",
+        "snippet": "2\nPaying your\nclosing balance\nin full by the due date shown on your statement to get interest-free on new purchases in your next statement period. Your closing balance is the amount you owe from your last statement period.\nRemember, the sooner you pay off everything you owe, the less interest you\u2019ll",
+        "segment_match": true
+      },
+      {
+        "score": 0.20681080954086217,
+        "title": "How do credit cards work?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-do-credit-cards-work.html",
+        "doc_segment": "generic",
+        "snippet": "Credit card trade-offs\nIf you don\u2019t repay your balance in full every month, you'll be charged interest in addition to any fees that may apply. Additionally, some cards don't allow for balance transfers or cash advances.\nWhile credit cards can be convenient, remember that you'll have to repay any bal",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "U4",
+    "bucket": "unanswerable",
+    "request_segment": "personal",
+    "question": "Why did my credit card application get declined?",
+    "retrieval_query": "why did my credit card application get declined?",
+    "query_notes": [],
+    "expected": "refuse",
+    "answer": "I couldn't find this in the provided credit card pages.",
+    "refused": true,
+    "refusal_reason": "low_relevance",
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic",
+      "personal"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.3291199523951124,
+    "llm_called": false,
+    "topk": [
+      {
+        "score": 0.3291199523951124,
+        "title": "Credit card cash advance - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/manage/cash-advances.html",
+        "doc_segment": "generic",
+        "snippet": "Higher cost compared to using your credit card to buy goods for the same value\nNo interest-free days\nFAQs\nFAQs\nWhy\u00a0has\u00a0my\u00a0credit card cash\u00a0advance\u00a0been\u00a0declined?\nYour\u00a0cash\u00a0advance\u00a0will\u00a0be\u00a0declined\u00a0when you\u2019ve reached the cash limit on your credit card.\u00a0We\u00a0may also limit certain types of cash\u00a0advance",
+        "segment_match": true
+      },
+      {
+        "score": 0.30559400302481643,
+        "title": "What should you do if you suspect credit card fraud?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/what-should-you-do-if-you-suspect-credit-card-fraud.html",
+        "doc_segment": "generic",
+        "snippet": "a \u2018no\u2019 if it was not you who attempted the transaction.\nIf it was you and we declined the transaction, you should be able to successfully re-try making it after responding \u2018yes\u2019. If you respond \u2018no\u2019, one of our agents will give you a call.\nGet a copy of your credit report\nYou can get a copy of your\n",
+        "segment_match": true
+      },
+      {
+        "score": 0.25762077417577633,
+        "title": "Switch your credit card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/manage/switch-card.html",
+        "doc_segment": "generic",
+        "snippet": "Manage your limit\nYour address isn't in Australia or you're not an Australian citizen\nYou've spent over your credit limit\nYour account is in arrears or your balance is overdue\nYou've already started a request to switch cards\nWhat happens next?\nOnce your request has been processed, we\u2019ll send you a l",
+        "segment_match": true
+      },
+      {
+        "score": 0.24347924209491612,
+        "title": "Personalised Interest Rates on Low Rate credit cards - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/low-rate-personalised-rates.html",
+        "doc_segment": "personal",
+        "snippet": "Actions that can negatively impact your credit history include missing bill or loan repayments, defaulting on your credit facility, or making\u00a0multiple credit applications in a short period of time.\nHow will I know what my personalised interest rate is?\nYou will be notified of your personalised inter",
+        "segment_match": true
+      },
+      {
+        "score": 0.2239322923988366,
+        "title": "Tips for keeping your credit card secure",
+        "url": "https://www.commbank.com.au/articles/credit-cards/tips-for-keeping-your-card-secure.html",
+        "doc_segment": "generic",
+        "snippet": "^ When a temporary lock has been applied, all new transactions on the credit card will be declined except for transactions flagged as \u2018recurring\u2019 such as direct debits and transactions not sent to us for authorisation. Also excludes purchases made via Tap & Pay set up on an Android device or using a",
+        "segment_match": true
+      },
+      {
+        "score": 0.21182426146492994,
+        "title": "How to understand & check your credit score",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-to-understand-and-check-your-credit-score.html",
+        "doc_segment": "generic",
+        "snippet": "One slip-up can reduce your score. In order to avoid this, it\u2019s important to always pay your bills and make loan repayments on time and not overextend yourself financially.\nIf you see something in your credit score report that looks questionable, get in touch with the credit provider to get it check",
+        "segment_match": true
+      },
+      {
+        "score": 0.2034767409425593,
+        "title": "How do I change my credit card limit?",
+        "url": "https://www.commbank.com.au/support.credit-cards.change-credit-limit.html?ei=control_creditlimit",
+        "doc_segment": "generic",
+        "snippet": "Increasing your limit\nYou can apply for a credit limit increase anytime. If your application is approved, your new limit will be applied to your card instantly.\nDecreasing your limit",
+        "segment_match": true
+      },
+      {
+        "score": 0.20112933006789657,
+        "title": "Should you increase your credit card limit - CommBank",
+        "url": "https://www.commbank.com.au/articles/credit-cards/should-you-increase-your-credit-card-limit.html",
+        "doc_segment": "generic",
+        "snippet": "As well as higher credit card bills and interest payments, another possible risk of increasing your limit is that it can also impact your ability to get credit elsewhere. A request for an increased limit may appear on your credit report and reduce the amount of credit that another institution is wil",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "U5",
+    "bucket": "unanswerable",
+    "request_segment": "personal",
+    "question": "Can CommBank waive my late payment fee?",
+    "retrieval_query": "can commbank waive my late payment fee?",
+    "query_notes": [],
+    "expected": "refuse",
+    "answer": "I couldn't find this in the provided credit card pages.",
+    "refused": true,
+    "refusal_reason": "llm_refusal",
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic",
+      "personal"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.4365347361604007,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.4365347361604007,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "Through CommBank or other Australian ATMs\n10\nAt an overseas terminal or financial institution.\nIt also applies to:\nFunds transfers using CommBank networks\n11\nPurchases of cash equivalent items, such as gambling, lottery tickets and money transfers\n.\n12\nLate payment fee\nLate payment fee (does not app",
+        "segment_match": true
+      },
+      {
+        "score": 0.4296983487445396,
+        "title": "CommBank Awards Card | Awards Points Credit Card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/awards.html",
+        "doc_segment": "personal",
+        "snippet": "5\nA maximum charge of\u00a0$300 (or a flat fee of $4.00 applies if your closing balance on previous business day was in credit. For cash advances made via NetBank transfers, CommBank App transfers, or ATMs, the fee will be $0 if your closing balance was in credit the previous business day).\nRefer to the ",
+        "segment_match": true
+      },
+      {
+        "score": 0.4089867130367101,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "Please refer to the\nLow Rate credit card FAQs\nfor more information.\n15\nA maximum charge of $300 or a flat fee of $4.00 applies if your closing balance on previous business day was in credit. For cash advances made via NetBank transfers, CommBank App transfers, or ATMs, the fee will be $0 if your clo",
+        "segment_match": true
+      },
+      {
+        "score": 0.3977298798553295,
+        "title": "Ultimate Awards Qantas Points Credit Card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/ultimate-credit-card-qantas.html",
+        "doc_segment": "personal",
+        "snippet": "Cash Advance Fee\n$4.00 or 3.00% of the transaction amount \u2013 whichever is greater.\n12\nA maximum charge of $300 or a flat fee of $4.00 applies if your closing balance on previous business day was in credit.\nThis is charged for cash advances from\u00a0CommBank branches or other Australian financial institut",
+        "segment_match": true
+      },
+      {
+        "score": 0.39328397739330934,
+        "title": "Credit card cash advance - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/manage/cash-advances.html",
+        "doc_segment": "generic",
+        "snippet": "Interest-free Low Fee credit card terms and conditions\n.\nThings you should know\n1\nA maximum charge of $300 or a flat fee of $4.00 applies if your closing balance on previous business day was in credit. For cash advances made via NetBank transfers, CommBank App transfers, or ATMs, the fee will be $0 ",
+        "segment_match": true
+      },
+      {
+        "score": 0.38777180181081206,
+        "title": "Low Rate Credit Card | Up to 55 days interest free - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/low-rate.html",
+        "doc_segment": "personal",
+        "snippet": "1\nA maximum charge of\u00a0$300 (or a flat fee of $4.00 applies if your closing balance on previous business day was in credit. For cash advances made via NetBank transfers, CommBank App transfers, or ATMs, the fee will be $0 if your closing balance was in credit the previous business day).\n2",
+        "segment_match": true
+      },
+      {
+        "score": 0.37645718530012295,
+        "title": "Low Fee Credit Card | Our lowest monthly fee card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/low-fee.html",
+        "doc_segment": "personal",
+        "snippet": "3\nA maximum charge of $300 (or a flat fee of $4.00 applies if your closing balance on previous business day was in credit. For cash advances made via NetBank transfers, CommBank App transfers, or ATMs, the fee will be $0 if your closing balance was in credit the previous business day).\n4",
+        "segment_match": true
+      },
+      {
+        "score": 0.37190064736076167,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "5\nFor CommBank Essentials credit cards, the monthly fee is charged at $5 per month, or $2 per month if you (i) set up automated monthly repayments (through our AutoPay) from a CommBank transaction account; and (ii) opt-in to receive statements on this account through NetBank (and to enable this, you",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "O1",
+    "bucket": "oos",
+    "request_segment": "personal",
+    "question": "What is the SWIFT code for CommBank?",
+    "retrieval_query": "what is the swift code for commbank?",
+    "query_notes": [],
+    "expected": "refuse",
+    "answer": "I couldn't find this in the provided credit card pages.",
+    "refused": true,
+    "refusal_reason": "low_relevance",
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic",
+      "personal"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.3543282775174176,
+    "llm_called": false,
+    "topk": [
+      {
+        "score": 0.3543282775174176,
+        "title": "What you need to know about credit card travel insurance",
+        "url": "https://www.commbank.com.au/brighter/insurance/travel-insurance/travel-insurance-with-credit-card.html",
+        "doc_segment": "generic",
+        "snippet": "CommBank emergency details\nLock, Block, Limit\nyour\nCommBank credit card\nor lock your Travel Money Card for added security\nCancel and order replacement CommBank cards in NetBank or the CommBank app\nCall us 24/7 on +61 2 9999 3283 to report lost or stolen CommBank cards\nFor 24 hour travel insurance em",
+        "segment_match": true
+      },
+      {
+        "score": 0.34307637551731274,
+        "title": "Earn more points on everyday card purchases - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/awards/earn-points.html",
+        "doc_segment": "personal",
+        "snippet": "CommBank App\nTap\nAccounts\nto go to your\nAccount list\nTap your\nAwards card\nand select the\nAwards icon\nNetBank\nLog on to\nNetBank\nGo to your\nAccount list\nSelect the\nView Awards\nlink next to your Awards card\nContact us\nYou can contact CommBank Awards by calling\n13 1661\n, from 8am to 8pm, Monday to Frida",
+        "segment_match": true
+      },
+      {
+        "score": 0.32630117116670376,
+        "title": "Common credit card mistakes to avoid",
+        "url": "https://www.commbank.com.au/articles/credit-cards/common-credit-card-mistakes-to-avoid.html",
+        "doc_segment": "generic",
+        "snippet": "Commonwealth Bank",
+        "segment_match": true
+      },
+      {
+        "score": 0.3212244989698695,
+        "title": "CommBank Awards Cards | Earn Points and Redeem Rewards",
+        "url": "https://www.commbank.com.au/credit-cards/awards-credit-cards.html",
+        "doc_segment": "personal",
+        "snippet": "Apply in NetBank\nor\nNew customer or don't bank online with us?\nApply online\nNeed help finding the right card for you?\nHelp me choose\nCompare all cards\nCommBank Awards program\nCommBank offers the largest rewards program of any bank in Australia based on number of cardholders\n8\nEarn Bonus Points\u00a0when ",
+        "segment_match": true
+      },
+      {
+        "score": 0.31928624970055053,
+        "title": "Low Rate Credit Card | Up to 55 days interest free - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/low-rate.html",
+        "doc_segment": "personal",
+        "snippet": "Cash advance fee\n$4.00 or 3.00% of the transaction amount \u2013 whichever is greater\n1\nThis is charged for cash advances from\u00a0CommBank branches or other Australian financial institutions, ATMs, overseas terminals or financial institutions, funds transfers using CommBank networks and purchases of cash eq",
+        "segment_match": true
+      },
+      {
+        "score": 0.3188357841836661,
+        "title": "CommBank Awards Cards | Earn Points and Redeem Rewards",
+        "url": "https://www.commbank.com.au/credit-cards/awards-credit-cards.html",
+        "doc_segment": "personal",
+        "snippet": "Commonwealth Bank of Australia ABN 48 123 123 124 and Australian credit licence 234945.\nCommonwealth Bank",
+        "segment_match": true
+      },
+      {
+        "score": 0.3186773963269621,
+        "title": "Tips for using your credit card overseas",
+        "url": "https://www.commbank.com.au/articles/credit-cards/using-your-credit-card-overseas.html",
+        "doc_segment": "generic",
+        "snippet": "Consider a card with no international transaction fees for purchases you make overseas\nCommBank emergency details\nLock, Block, Limit\nyour CommBank credit card or lock your Travel Money Card for added security\nCancel and order replacement CommBank cards in NetBank or the CommBank app\nCall us on +61 2",
+        "segment_match": true
+      },
+      {
+        "score": 0.31765777976778664,
+        "title": "CommBank Awards Card | Awards Points Credit Card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/awards.html",
+        "doc_segment": "personal",
+        "snippet": "21.99% p.a.\nCash advance fee\n$4.00 or 3.00% of the transaction amount \u2013 whichever is greater\n5\nThis is charged for cash advances from\u00a0CommBank branches or other Australian financial institutions, ATMs, overseas terminals or financial institutions, funds transfers using CommBank networks and purchase",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "O2",
+    "bucket": "oos",
+    "request_segment": "personal",
+    "question": "How do I open a savings account with CommBank?",
+    "retrieval_query": "how do i open a savings account with commbank?",
+    "query_notes": [],
+    "expected": "refuse",
+    "answer": "I couldn't find this in the provided credit card pages.",
+    "refused": true,
+    "refusal_reason": "llm_refusal",
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic",
+      "personal"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.42521738010455834,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.42521738010455834,
+        "title": "What you need to apply for a credit card",
+        "url": "https://www.commbank.com.au/credit-cards/what-you-need-to-apply.html",
+        "doc_segment": "personal",
+        "snippet": "Meet CommBank\u2019s credit assessment criteria which includes demonstrating the capacity to service the credit facility\nPersonal details\nPersonal details\nIdentification\nHow much proof of ID you need to prepare will depend on whether you\u2019re a new or existing CommBank customer.\nNew customers\nIf you're a\nn",
+        "segment_match": true
+      },
+      {
+        "score": 0.41861166239059744,
+        "title": "How to get a credit card",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-to-get-a-credit-card.html",
+        "doc_segment": "generic",
+        "snippet": "Always read the fine print\nOnce you\u2019ve chosen the credit card you think will best suit you,\nread up on the fees and charges, as well as the terms and conditions\n.\nApply when you\u2019re ready\nYou can apply for a credit card online at any time with CommBank\n.\nNew to CommBank or don\u2019t have NetBank? We'll j",
+        "segment_match": true
+      },
+      {
+        "score": 0.41729174953578174,
+        "title": "Tips to improve your credit score",
+        "url": "https://www.commbank.com.au/articles/credit-cards/tips-to-improve-your-credit-score.html",
+        "doc_segment": "generic",
+        "snippet": "Savings accounts often pay higher interest rates than transaction accounts (unless you\nlock your money in for a fixed term\n) and enable you to\u00a0access your\u00a0money when you really need it.\nHere\u2019s how with CommBank:\nSet a savings goal in NetBank\nand give it a nickname, to help you stay motivated to save",
+        "segment_match": true
+      },
+      {
+        "score": 0.4142112363781205,
+        "title": "CommBank Awards Cards | Earn Points and Redeem Rewards",
+        "url": "https://www.commbank.com.au/credit-cards/awards-credit-cards.html",
+        "doc_segment": "personal",
+        "snippet": "Apply in NetBank\nor\nNew customer or don't bank online with us?\nApply online\nNeed help finding the right card for you?\nHelp me choose\nCompare all cards\nCommBank Awards program\nCommBank offers the largest rewards program of any bank in Australia based on number of cardholders\n8\nEarn Bonus Points\u00a0when ",
+        "segment_match": true
+      },
+      {
+        "score": 0.41390676754447786,
+        "title": "Low Fee Credit Card | Our lowest monthly fee card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/low-fee.html",
+        "doc_segment": "personal",
+        "snippet": "Save time by using your NetBank details or CommBank App.\nApply online\nor\nNew customer or don't bank online with us?\nGet started\nAt a glance\nAt a glance\nWhat you'll get\nNo monthly fee if you spend at least $300 in your statement period\n1\n. Otherwise monthly fee is $3\nCashback benefits for eligible ca",
+        "segment_match": true
+      },
+      {
+        "score": 0.4090798997187677,
+        "title": "Switch to online statements - CommBank",
+        "url": "https://www.commbank.com.au/support/switch-to-online-statements.html?ei=paying_switch",
+        "doc_segment": "generic",
+        "snippet": "How to switch\nCommBank app\nLog on to the\nCommBank app\n1\nTap 'Accounts'\nChoose an account then tap the settings cog\u00a0or \u2018Manage Account\u2019\nTap 'Statement preferences' (you may be asked to enter your CommBank app PIN)\nTap 'Online' and scroll down to and tap the 'Next' button\nTap 'Confirm' if your email a",
+        "segment_match": true
+      },
+      {
+        "score": 0.3971923389494215,
+        "title": "How do i activate my CommBank card?",
+        "url": "https://www.commbank.com.au/support.cards.activate-card.html?ei=start_ActivateCard",
+        "doc_segment": "generic",
+        "snippet": "How do i activate my CommBank card?\nSearch support and FAQs\nHow do i activate my CommBank card?\nHow do I activate my CommBank card?\nCommBank app\nLog on to the\nCommBank app\nTap\u00a0Cards\u00a0> then swipe across to find the right card\nTap\u00a0Activate card\nNetBank\nRegister for\nNetCode\n, if you're not already\nLog ",
+        "segment_match": true
+      },
+      {
+        "score": 0.38803256436254896,
+        "title": "How to get a credit card",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-to-get-a-credit-card.html",
+        "doc_segment": "generic",
+        "snippet": "If you\u2019re already a CommBank customer and registered for NetBank,\u00a0you can save time by confirming your personal details before providing your proof of income.\nYou can also apply for a credit card at your nearest branch. Just make sure you remember to bring your ID and proof of income.\nFind the credi",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "O3",
+    "bucket": "oos",
+    "request_segment": "personal",
+    "question": "What is the establishment fee on a corporate charge card?",
+    "retrieval_query": "what is the establishment fee on a corporate charge card?",
+    "query_notes": [],
+    "expected": "refuse",
+    "answer": "I couldn't find this in the provided credit card pages.",
+    "refused": true,
+    "refusal_reason": "low_relevance",
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic",
+      "personal"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.31717477688385176,
+    "llm_called": false,
+    "topk": [
+      {
+        "score": 0.31717477688385176,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "$15\nWhen we first allow you to go over your credit limit in a statement period.\nEmergency issue/ lost/ replacement card fee\n$20\nWhen you need an emergency replacement card delivered to you.\nBusiness Credit Card Fees\nFor full details, see the\nPersonal Liability Business Credit Cards Standard Fees and",
+        "segment_match": true
+      },
+      {
+        "score": 0.27020118698779316,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "Please refer to the\nLow Rate credit card FAQs\nfor more information.\n15\nA maximum charge of $300 or a flat fee of $4.00 applies if your closing balance on previous business day was in credit. For cash advances made via NetBank transfers, CommBank App transfers, or ATMs, the fee will be $0 if your clo",
+        "segment_match": true
+      },
+      {
+        "score": 0.2557096674768984,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "Low Rate\n$0\n$0\nNone\n14.55% p.a.\n14.55% p.a.\nInterest-Free Days\n$60 per year\n$60 p.a.\nUp to 55 days\n17.57% p.a.\n17.57% p.a.\nAwards\n$100 per year\n$75\u00a0p.a.\nUp to 55 days\n20.74% p.a.\n21.74% p.a.\nPlatinum Awards\n$300 per year\n$75\u00a0p.a.\nUp to 55 days\n20.74% p.a.\n21.74%\u00a0p.a.\nFor full details, see the\nPerson",
+        "segment_match": true
+      },
+      {
+        "score": 0.2478556022568933,
+        "title": "Low Rate Credit Card | Up to 55 days interest free - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/low-rate.html",
+        "doc_segment": "personal",
+        "snippet": "1\nA maximum charge of\u00a0$300 (or a flat fee of $4.00 applies if your closing balance on previous business day was in credit. For cash advances made via NetBank transfers, CommBank App transfers, or ATMs, the fee will be $0 if your closing balance was in credit the previous business day).\n2",
+        "segment_match": true
+      },
+      {
+        "score": 0.23944368134999805,
+        "title": "Low Fee Credit Card | Our lowest monthly fee card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/low-fee.html",
+        "doc_segment": "personal",
+        "snippet": "3\nA maximum charge of $300 (or a flat fee of $4.00 applies if your closing balance on previous business day was in credit. For cash advances made via NetBank transfers, CommBank App transfers, or ATMs, the fee will be $0 if your closing balance was in credit the previous business day).\n4",
+        "segment_match": true
+      },
+      {
+        "score": 0.23898107754074238,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "3\nFor CommBank Neo Business, the monthly fee is charged at $12 per month for a $1,000 credit limit, $18 per month for a $2,000 credit limit and $22 per month for a $3,000 credit limit. If you don't have any processed transactions in a given statement period and pay your previous statement closing ba",
+        "segment_match": true
+      },
+      {
+        "score": 0.2312011907741165,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "5\nFor CommBank Essentials credit cards, the monthly fee is charged at $5 per month, or $2 per month if you (i) set up automated monthly repayments (through our AutoPay) from a CommBank transaction account; and (ii) opt-in to receive statements on this account through NetBank (and to enable this, you",
+        "segment_match": true
+      },
+      {
+        "score": 0.2277834185346711,
+        "title": "Credit card cash advance - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/manage/cash-advances.html",
+        "doc_segment": "generic",
+        "snippet": "Interest-free Low Fee credit card terms and conditions\n.\nThings you should know\n1\nA maximum charge of $300 or a flat fee of $4.00 applies if your closing balance on previous business day was in credit. For cash advances made via NetBank transfers, CommBank App transfers, or ATMs, the fee will be $0 ",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "O4",
+    "bucket": "oos",
+    "request_segment": "personal",
+    "question": "What are today's interest rates for a car loan?",
+    "retrieval_query": "what are today's interest rates for a car loan? | what are today's purchase interest rates for a car loan?",
+    "query_notes": [
+      "interest rate clarification"
+    ],
+    "expected": "refuse",
+    "answer": "I couldn't find this in the provided credit card pages.",
+    "refused": true,
+    "refusal_reason": "low_relevance",
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic",
+      "personal"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.3127544997057262,
+    "llm_called": false,
+    "topk": [
+      {
+        "score": 0.3127544997057262,
+        "title": "What makes up your credit card balance?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/what-makes-up-your-credit-card-balance.html",
+        "doc_segment": "generic",
+        "snippet": "charged interest\nat the purchase rate for any new purchases, along with your outstanding balance.\nInterest-free cards generally come with a 0% purchase rate, meaning you won\u2019t be charged interest on your purchases.\nCash advances",
+        "segment_match": true
+      },
+      {
+        "score": 0.28364594736907134,
+        "title": "Credit Card Offers - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/awards-credit-card-offer.html",
+        "doc_segment": "personal",
+        "snippet": "3\nFrom 10\u00a0December 2024, interest rates offered on\u00a0approval vary from\u00a010.99% p.a. to 15.99% p.a. The rate offered to you (your personalised interest rate) within this range depends on different factors, including your individual credit risk score.",
+        "segment_match": true
+      },
+      {
+        "score": 0.2680053361803756,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "14\nFrom 10\u00a0December 2024, interest rates offered on\u00a0approval vary from\u00a010.99% p.a. to 15.99% p.a. The rate offered to you (your personalised interest rate) within this range depends on different factors, including your individual credit risk score.",
+        "segment_match": true
+      },
+      {
+        "score": 0.26695318225414955,
+        "title": "Personalised Interest Rates on Low Rate credit cards - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/low-rate-personalised-rates.html",
+        "doc_segment": "personal",
+        "snippet": "Things you should know\n1\nFrom 10\u00a0December 2024, interest rates offered on\u00a0approval vary from\u00a010.99% p.a. to 15.99% p.a. The rate offered to you (your personalised interest rate) within this range depends on different factors, including your individual credit risk score.",
+        "segment_match": true
+      },
+      {
+        "score": 0.26436081389594157,
+        "title": "Credit card interest free period",
+        "url": "https://www.commbank.com.au/articles/credit-cards/make-the-most-of-your-credit-card-interest-free-period.html",
+        "doc_segment": "generic",
+        "snippet": "interest rates and charges\non your CommBank\nmonthly statement\n. The\npurchase interest rate\nis the one most commonly advertised by lenders, and refers to the rate charged on purchases made with a credit card if an\ninterest-free period\ndoesn\u2019t apply.\nWhat's an interest-free period and how is it calcul",
+        "segment_match": true
+      },
+      {
+        "score": 0.2600572834881911,
+        "title": "How to choose your first credit card",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-to-choose-your-first-credit-card.html",
+        "doc_segment": "generic",
+        "snippet": "The interest rate you\u2019ll often see in advertising is the purchase interest rate. This is the rate you\u2019ll be charged on purchases if you don\u2019t pay your balance in full by the monthly payment due date (i.e. the due date on your statement each month).\nMany credit cards come with an\ninterest-free period",
+        "segment_match": true
+      },
+      {
+        "score": 0.24603443693273752,
+        "title": "CommBank Awards Card | Awards Points Credit Card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/awards.html",
+        "doc_segment": "personal",
+        "snippet": "purchase (or cash advance) rate. Please refer to your most recent statement to confirm your card's current interest rate as this may have changed since you first set up your SurePay plan.",
+        "segment_match": true
+      },
+      {
+        "score": 0.22563207479928105,
+        "title": "Credit Card Offers - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/awards-credit-card-offer.html",
+        "doc_segment": "personal",
+        "snippet": "Once your credit contract is entered into, your personalised interest rate will be reviewed periodically and may change upon review. We may also vary the range of rates available for new Low Rate credit cards at any time. We\u2019ll notify you as outlined in the conditions of use if your personalised int",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "O5",
+    "bucket": "oos",
+    "request_segment": "personal",
+    "question": "What is the stock price of Commonwealth Bank?",
+    "retrieval_query": "what is the stock price of commonwealth bank?",
+    "query_notes": [],
+    "expected": "refuse",
+    "answer": "I couldn't find this in the provided credit card pages.",
+    "refused": true,
+    "refusal_reason": "llm_refusal",
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic",
+      "personal"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.540200389163251,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.540200389163251,
+        "title": "Common credit card mistakes to avoid",
+        "url": "https://www.commbank.com.au/articles/credit-cards/common-credit-card-mistakes-to-avoid.html",
+        "doc_segment": "generic",
+        "snippet": "Commonwealth Bank",
+        "segment_match": true
+      },
+      {
+        "score": 0.4103586351025882,
+        "title": "Personalised Interest Rates on Low Rate credit cards - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/low-rate-personalised-rates.html",
+        "doc_segment": "personal",
+        "snippet": "\u00a92024 Commonwealth Bank of Australia ABN 48 123 123 124 AFSL and Australian credit licence 234945\nCommonwealth Bank",
+        "segment_match": true
+      },
+      {
+        "score": 0.37007682678514975,
+        "title": "CommBank Awards Cards | Earn Points and Redeem Rewards",
+        "url": "https://www.commbank.com.au/credit-cards/awards-credit-cards.html",
+        "doc_segment": "personal",
+        "snippet": "Commonwealth Bank of Australia ABN 48 123 123 124 and Australian credit licence 234945.\nCommonwealth Bank",
+        "segment_match": true
+      },
+      {
+        "score": 0.338075061885616,
+        "title": "Credit Card Offers - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/awards-credit-card-offer.html",
+        "doc_segment": "personal",
+        "snippet": "All customers with an existing CommBank Low Rate credit card, and customers who switch from an existing CommBank credit card to a Low Rate credit card will be offered or will retain an interest rate of 13.99% p.a. This rate may be varied at any time during the term of the credit contract.\nPlease ref",
+        "segment_match": true
+      },
+      {
+        "score": 0.29799222883999754,
+        "title": "Manage and control your credit card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/manage.html",
+        "doc_segment": "generic",
+        "snippet": "find out more\n.\nCommBank acknowledges the Traditional Owners of the lands across Australia as the continuing custodians of Country and Culture. We pay our respect to First Nations peoples and their Elders, past and present.\n\u00a92024 Commonwealth Bank of Australia ABN 48 123 123 124 AFSL and Australian ",
+        "segment_match": true
+      },
+      {
+        "score": 0.29392379355324094,
+        "title": "Tips for keeping your credit card secure",
+        "url": "https://www.commbank.com.au/articles/credit-cards/tips-for-keeping-your-card-secure.html",
+        "doc_segment": "generic",
+        "snippet": "This article is intended to provide general information of an educational nature only. It does not have regard to the financial situation or needs of any reader and must not be relied upon as financial product advice.\nCommonwealth Bank",
+        "segment_match": true
+      },
+      {
+        "score": 0.28590780014125694,
+        "title": "Switch your credit card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/manage/switch-card.html",
+        "doc_segment": "generic",
+        "snippet": "We can help\nYour questions answered\nContact us\nVisit your nearest branch\nCommonwealth Bank",
+        "segment_match": true
+      },
+      {
+        "score": 0.28395850839762815,
+        "title": "How do credit cards points work?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/how-do-credit-card-points-work.html",
+        "doc_segment": "generic",
+        "snippet": "Compare CommBank Awards credit cards\nTake me there\nThings you should know\nThis article is intended to provide general information of an educational nature only. It does not have regard to the financial situation or needs of any reader and must not be relied upon as financial product advice.\nCommonwe",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "SC1",
+    "bucket": "seg_conflict",
+    "request_segment": "personal",
+    "question": "What is the purchase interest rate on a Business Platinum Awards card?",
+    "retrieval_query": "what is the purchase interest rate on a business platinum awards card?",
+    "query_notes": [],
+    "expected": "refuse",
+    "answer": "I couldn't find this in the provided credit card pages.",
+    "refused": true,
+    "refusal_reason": "llm_refusal",
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "generic",
+      "personal"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.4314928772604365,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.4314928772604365,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "Low Rate\n$0\n$0\nNone\n14.55% p.a.\n14.55% p.a.\nInterest-Free Days\n$60 per year\n$60 p.a.\nUp to 55 days\n17.57% p.a.\n17.57% p.a.\nAwards\n$100 per year\n$75\u00a0p.a.\nUp to 55 days\n20.74% p.a.\n21.74% p.a.\nPlatinum Awards\n$300 per year\n$75\u00a0p.a.\nUp to 55 days\n20.74% p.a.\n21.74%\u00a0p.a.\nFor full details, see the\nPerson",
+        "segment_match": true
+      },
+      {
+        "score": 0.392896057799615,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "$14 per month \u2013 equivalent to\u00a0$168 per year\n$0 p.a.\nUp to 44 days\n20.99% p.a.\n21.99% p.a.\nPlatinum Awards\n$25 per month\n\u2013 equivalent to\u00a0$300 per year\n$0 p.a.\nUp to 44 days\n20.99% p.a.\n21.99% p.a.\nDiamond Awards\n$32 per month \u2013 equivalent to\u00a0$384 per year\n$0 p.a.\nUp to 44 days\n20.99% p.a.\n21.99% p.a.",
+        "segment_match": true
+      },
+      {
+        "score": 0.3538315769077167,
+        "title": "Manage and control your credit card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/manage.html",
+        "doc_segment": "generic",
+        "snippet": "The 0% p.a. interest rate is only available for 'Card purchase plans' and not 'Card balance plans' or 'Cash advance balance plans'.\n3\nSource: DBM Consultants, customers 18+ with a rewards/loyalty card in the 12 months to March 2023.\n4",
+        "segment_match": true
+      },
+      {
+        "score": 0.34891573708480006,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "20.99% p.a.\n21.99% p.a.\nUltimate Awards\n$35 or $0 per month\n9\n$0 p.a.\nUp to 44 days\n20.99% p.a.\n21.99% p.a.\nFor full details, see the\nStandard credit card fees and charges\n.\nBusiness Credit Card Standard Fees and Charges\nAs at 13 April 2021\nCredit card type\nAnnual or monthly fee\nAdditional cardholde",
+        "segment_match": true
+      },
+      {
+        "score": 0.34769347847798415,
+        "title": "CommBank Awards Card | Awards Points Credit Card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/awards.html",
+        "doc_segment": "personal",
+        "snippet": "purchase (or cash advance) rate. Please refer to your most recent statement to confirm your card's current interest rate as this may have changed since you first set up your SurePay plan.",
+        "segment_match": true
+      },
+      {
+        "score": 0.3324159202423612,
+        "title": "What makes up your credit card balance?",
+        "url": "https://www.commbank.com.au/articles/credit-cards/what-makes-up-your-credit-card-balance.html",
+        "doc_segment": "generic",
+        "snippet": "charged interest\nat the purchase rate for any new purchases, along with your outstanding balance.\nInterest-free cards generally come with a 0% purchase rate, meaning you won\u2019t be charged interest on your purchases.\nCash advances",
+        "segment_match": true
+      },
+      {
+        "score": 0.33215469407529075,
+        "title": "Credit card fees and charges - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/card-fees-charges.html",
+        "doc_segment": "personal",
+        "snippet": "Interest free period on purchases\nInterest rate on purchases\nInterest rate on cash advances\nBusiness Gold Awards\n$150 per year\n$75 p.a.\nUp to 55 days\n20.74% p.a.\n21.24% p.a.\nCommBank Neo Business\n$12, $18 or $22 or $0 per month\n3\n$0\nN/A\n0% p.a.\nCash advances are blocked.\nExceptions may apply\n4\nOther",
+        "segment_match": true
+      },
+      {
+        "score": 0.31992039118324544,
+        "title": "Our Ultimate Awards Credit Card - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/ultimate.html",
+        "doc_segment": "personal",
+        "snippet": "The 0% p.a. interest rate is only available for \u2018Card purchase plans\u2019 and not \u2018Card balance plans\u2019 or \u2018Cash advance balance plans\u2019.\n15",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  },
+  {
+    "id": "SC2",
+    "bucket": "seg_conflict",
+    "request_segment": "business",
+    "question": "What is the annual fee on an Ultimate Awards card?",
+    "retrieval_query": "what is the annual fee on an ultimate business awards card? | what is the monthly fee on an ultimate business awards card?",
+    "query_notes": [
+      "add business product prefix",
+      "annual fee + monthly fee expansion"
+    ],
+    "expected": "refuse",
+    "answer": "I couldn't find this in the provided credit card pages.",
+    "refused": true,
+    "refusal_reason": "llm_refusal",
+    "guardrail_pass": true,
+    "segment_match": true,
+    "segment_mismatch_count": 0,
+    "retrieved_segments": [
+      "business",
+      "generic"
+    ],
+    "retrieved_docs": 8,
+    "best_score": 0.6131559095860324,
+    "llm_called": true,
+    "topk": [
+      {
+        "score": 0.6131559095860324,
+        "title": "Qantas Credit Card Frequent Flyer Program - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/qantas-frequent-flyer.html",
+        "doc_segment": "generic",
+        "snippet": "7\nFor Ultimate Awards credit cards, there is no monthly fee if you spend at least $4,000 on your Ultimate Awards credit card in your statement period to qualify for no monthly fee for that month. Otherwise the monthly fee is $35. Spend includes all purchases and cash advances made using your Ultimat",
+        "segment_match": true
+      },
+      {
+        "score": 0.41011919885619785,
+        "title": "Qantas Credit Card Frequent Flyer Program - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/qantas-frequent-flyer.html",
+        "doc_segment": "generic",
+        "snippet": "Minimum credit limit of $6,000\nUltimate Awards gives you access to airport lounge benefits with\nMastercard Travel Pass\nprovided by DragonPass. Enjoy two complimentary airport lounge passes per calendar year to over 1,300 airport lounges worldwide and up-to-date travel information\n14\nEnjoy cashback o",
+        "segment_match": true
+      },
+      {
+        "score": 0.3872190458925917,
+        "title": "Qantas Credit Card Frequent Flyer Program - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/qantas-frequent-flyer.html",
+        "doc_segment": "generic",
+        "snippet": "International transaction fees apply on Awards\n$90 per year to opt-in to earn Qantas Points\nYou will not be able to opt-in to earn Qantas Points on the Awards credit card\nUltimate Awards credit card\nEarn up to 1.2 Qantas Points\n2\nfor every $1 spent on eligible purchases, up to and including $10,000 ",
+        "segment_match": true
+      },
+      {
+        "score": 0.37194203556599936,
+        "title": "Qantas Credit Card Frequent Flyer Program - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/qantas-frequent-flyer.html",
+        "doc_segment": "generic",
+        "snippet": "For Smart Awards credit cards, there is no monthly fee if you spend at least $2,000 on your Smart Awards credit card in your statement period to qualify for no monthly fee for that month. Otherwise the monthly fee is $19. Spend includes all purchases and cash advances made using your Smart Awards cr",
+        "segment_match": true
+      },
+      {
+        "score": 0.34644959853788215,
+        "title": "Business credit cards",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/cards-for-larger-business.html",
+        "doc_segment": "business",
+        "snippet": "Business credit cards\nBusiness\n/\nBusiness credit cards\nBusiness credit cards\nExplore our range of business, awards cards and corporate products to help you manage and track your expenses.\nBusiness cards\nBusiness credit cards\nFor business owners looking for a competitive interest rate or interest-fre",
+        "segment_match": true
+      },
+      {
+        "score": 0.3268180179699929,
+        "title": "Business credit cards",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/cards-for-larger-business.html",
+        "doc_segment": "business",
+        "snippet": "Business Awards credit card\nPurchase interest rate\n20.74% p.a.\nAnnual fee\n$100\nMin. credit limit\n$500\nMax. credit limit\n$50,000 unsecured\n2\nInterest free period on purchases\nUp to 55 days\nWhat you'll get\nEarn up to 60,000 CommBank Awards Points\n4\nor opt-in to earn up to 24,000 Qantas Points for $30 ",
+        "segment_match": true
+      },
+      {
+        "score": 0.32084745326309105,
+        "title": "Qantas Credit Card Frequent Flyer Program - CommBank",
+        "url": "https://www.commbank.com.au/credit-cards/qantas-frequent-flyer.html",
+        "doc_segment": "generic",
+        "snippet": "Join now\nPersonal credit cards\nCards that earn Qantas Points\nTrade-offs\nUltimate Awards has a higher monthly fee. The fee is waived if spend criteria is met.\nHigher interest rates on purchases compared to our CommBank Neo, Low Rate and Low Fee credit cards. May not be suitable if you only make minim",
+        "segment_match": true
+      },
+      {
+        "score": 0.31523551609016853,
+        "title": "Business low rate credit card - CommBank",
+        "url": "https://www.commbank.com.au/business/business-credit-cards/business-low-rate-credit-card.html",
+        "doc_segment": "business",
+        "snippet": "7\nOther fees may apply. For full details, see the\nPersonal Liability Business Credit Cards Standard Fees and Charges (PDF)\nLooking for something else?\nSee all business credit cards\nCompare\nHelp me choose\nWe can help\nFAQs & contact us\nProduct support & contact information\nRates and fees\nFind your loc",
+        "segment_match": true
+      }
+    ],
+    "answer_validation": null,
+    "review_notes": null
+  }
+]

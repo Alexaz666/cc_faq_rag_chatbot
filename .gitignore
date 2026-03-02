@@ -1,0 +1,34 @@
+# Virtual environment
+myenv/
+.venv/
+
+# API keys etc.
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+
+# Vector DB / Chroma artifacts (anywhere)
+chroma_db/
+*.sqlite3
+**/chroma_db*/
+**/*.bin
+**/*.pickle
+**/*.sqlite3
+
+# Scraped corpora (keep out of repo)
+data/scraped_data*.json
+archive/scraped_data*.json
+
+# Old eval archives (optional but recommended)
+eval/archive/

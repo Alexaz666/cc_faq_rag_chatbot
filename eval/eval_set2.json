@@ -1,0 +1,212 @@
+[
+    {
+      "id": "AG1",
+      "bucket": "answerable",
+      "question": "What is an annual fee on a credit card?",
+      "req_segment": null,
+      "notes": "Defined clearly in Credit card definitions"
+    },
+    {
+      "id": "AG2",
+      "bucket": "answerable",
+      "question": "What happens if I only pay the minimum repayment each month?",
+      "req_segment": null,
+      "notes": "Covered in minimum repayment + interest articles"
+    },
+    {
+      "id": "AG3",
+      "bucket": "answerable",
+      "question": "How are interests applied if I don’t pay my balance in full?",
+      "req_segment": null,
+      "notes": "Priority order by interest rate"
+    },
+    {
+      "id": "AG4",
+      "bucket": "answerable",
+      "question": "How does the interest free period on credit cards work?",
+      "req_segment": null,
+      "notes": "Detailed explanation with examples"
+    },
+    {
+      "id": "AG5",
+      "bucket": "answerable",
+      "question": "What should I do if I suspect credit card fraud?",
+      "req_segment": null,
+      "notes": "Dedicated fraud response page"
+    },
+    {
+      "id": "AP1",
+      "bucket": "answerable",
+      "question": "What is the annual fee on a smart awards card?",
+      "req_segment": "personal",
+      "notes": "Test model behvaiour around annual vs. monthly fee keyword - Retail Awards charges a monthly fee"
+    },
+    {
+      "id": "AB1",
+      "bucket": "answerable",
+      "question": "What is the annual fee on a Awards credit card?",
+      "req_segment": "business",
+      "notes": "Test req_segment filtering, Business Awards card charges an annual fee of $100 detailed on the product page; Retail Awards card charges a monthly fee"
+    },
+    {
+      "id": "AP2",
+      "bucket": "answerable",
+      "question": "What is the minimum payment on a Low Rate card?",
+      "req_segment": "personal",
+      "notes": "Detailed on the minimum repayment page"
+    },
+    {
+      "id": "AB2",
+      "bucket": "answerable",
+      "question": "What is the minimum payment on a Low Rate card?",
+      "req_segment": "business",
+      "notes": "Test req_segment filtering, same source as AP2 with 'Business Car' keyword"
+    },
+    {
+      "id": "AP3",
+      "bucket": "answerable",
+      "question": "How will I be charged for withdrawing cash from my credit card?",
+      "req_segment": "personal",
+      "notes": "Defined incl. fees + interest behaviour"
+    },
+    {
+      "id": "AB3",
+      "bucket": "answerable",
+      "question": "How will I be charged for cash advances on a Business Low Rate card?",
+      "req_segment": "business",
+      "notes": "Test req_segment filtering; detailed on the Business Low Rate Card page"
+    },
+    {
+      "id": "AP4",
+      "bucket": "answerable",
+      "question": "What is the interest free period on a Awards card?",
+      "req_segment": "personal",
+      "notes": "Test req_segment filtering; Retail Awards card has 44 days; test spelling variation "
+    },
+    {
+      "id": "AB4",
+      "bucket": "answerable",
+      "question": "What is the interest-free period on a Awards card?",
+      "req_segment": "business",
+      "notes": "Test req_segment filtering; Business Awards card has 55 days"
+    },
+    {
+      "id": "AP5",
+      "bucket": "answerable",
+      "question": "What is the interest rate on a Low Rate card?",
+      "req_segment": "personal",
+      "notes": "Test model behaviour - Low Rate is dynamically priced with an interest rate range between 10.99% to 15.99%"
+    },
+    {
+      "id": "AB5",
+      "bucket": "answerable",
+      "question": "What is the interest rate on a Low Rate card?",
+      "req_segment": "business",
+      "notes": "Test req_segment filtering - Dynamic pricing doeesn't apply to Business Low Rate cards; fixed rate of 14.55%"
+    },
+    {
+      "id": "AP6",
+      "bucket": "answerable",
+      "question": "What is the interest rate on a CommBank Neo card?",
+      "req_segment": "personal",
+      "notes": "Test model behaviour - Neo is a interest free card"
+    },
+    {
+      "id": "AP7",
+      "bucket": "answerable",
+      "question": "What’s the difference between Low Rate and Awards credit cards?",
+      "req_segment": "personal",
+      "notes": "Explained across card-type articles"
+    },
+    {
+      "id": "AP8",
+      "bucket": "answerable",
+      "question": "Can I change my credit card limit after its issued?",
+      "req_segment": "personal",
+      "notes": "Explained in card management article "
+    },
+    {
+      "id": "U1",
+      "bucket": "unanswerable",
+      "question": "When is my next credit card payment due date?",
+      "req_segment": "personal",
+      "notes": "Customer specific"
+    },
+    {
+      "id": "U2",
+      "bucket": "unanswerable",
+      "question": "Should I close my credit card based on my current spending habits?",
+      "req_segment": "personal",
+      "notes": "Financial advice"
+    },
+    {
+      "id": "U3",
+      "bucket": "unanswerable",
+      "question": "Should I take a balance transfer before applying for a mortgage next year?",
+      "req_segment": "personal",
+      "notes": "Financial advice"
+    },
+    {
+      "id": "U4",
+      "bucket": "unanswerable",
+      "question": "Why did my credit card application get declined?",
+      "req_segment": "personal",
+      "notes": "Customer support"
+    },
+    {
+      "id": "U5",
+      "bucket": "unanswerable",
+      "question": "Can CommBank waive my late payment fee?",
+      "req_segment": "personal",
+      "notes": "Customer support"
+    },
+    {
+      "id": "O1",
+      "bucket": "oos",
+      "question": "What is the SWIFT code for CommBank?",
+      "req_segment": null,
+      "notes": "Not credit-card education"
+    },
+    {
+      "id": "O2",
+      "bucket": "oos",
+      "question": "How do I open a savings account with CommBank?",
+      "req_segment": null,
+      "notes": "Different product domain"
+    },
+    {
+      "id": "O3",
+      "bucket": "oos",
+      "question": "What is the establishment fee on a corporate charge card?",
+      "req_segment": null,
+      "notes": "the scope doesn't include corporate charge card"
+    },
+    {
+      "id": "O4",
+      "bucket": "oos",
+      "question": "What are today's interest rates for a car loan?",
+      "req_segment": null,
+      "notes": "Lending but not credit cards"
+    },
+    {
+      "id": "O5",
+      "bucket": "oos",
+      "question": "What is the stock price of Commonwealth Bank?",
+      "req_segment": null,
+      "notes": "Completely unrelated"
+    },
+    {
+      "id": "SC1",
+      "bucket": "seg_conflict",
+      "question": "What is the purchase interest rate on a Business Platinum Awards card?",
+      "req_segment": "personal",
+      "notes": "Test model behaviour - req_segment mismatch"
+    },
+    {
+      "id": "SC2",
+      "bucket": "seg_conflict",
+      "question": "What is the annual fee on an Ultimate Awards card?",
+      "req_segment": "business",
+      "notes": "Test model behaviour - req_segment mismatch; Business doesn't have an Ultimate product "
+    }
+  ]

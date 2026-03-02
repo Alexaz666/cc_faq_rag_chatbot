@@ -1,0 +1,60 @@
+,id,bucket,request_segment,expected,refused,question,answer,answer_valid,review_notes
+0,AG1,answerable,personal,answer,FALSE,What is an annual fee on a credit card?,"An annual fee is a fee you pay for having access to a credit card. It is usually payable once a year, on or around the date you first activated your card, and the amount varies depending on the type of credit card.",TRUE,
+1,AG2,answerable,personal,answer,FALSE,What happens if I only pay the minimum repayment each month?,"If you pay only the minimum repayment each month, interest will be charged on the remaining balance.",TRUE,
+2,AG3,answerable,personal,answer,FALSE,How are interests applied if I don't pay my balance in full?,"If you do not pay your closing balance in full by the due date, you will lose your interest-free period and interest will be charged on your unpaid balance from the day after the payment due date shown on your statement until you repay in full.",TRUE,
+3,AG4,answerable,personal,answer,FALSE,How does the interest free period on credit cards work?,"Most credit cards offer an interest-free period on purchases up to a certain number of days. The interest-free period is the time between when you make a purchase and the due date for payment on your statement. To benefit from the interest-free period, you must pay the full amount owing by the due date and ensure you do not already owe money on your credit card from a previous statement. This allows you to avoid being charged interest on new purchases.",TRUE,
+4,AG5,answerable,personal,answer,FALSE,What should I do if I suspect credit card fraud?,"If you suspect credit card fraud, you should follow these steps:
+
+1. Notify your bank immediately by calling them on 13 2221, available 24 hours a day, 7 days a week. If you are overseas, you can make a reverse-charges call to +61 2 9999 3283.
+
+2. Keep close track of your credit card activities and monitor for any unexpected changes. 
+
+3. Speak to your bank to possibly put a hold on your account and discuss the potential for reimbursement, provided you haven't contributed to the loss and have protected your card and PIN. 
+
+4. If you believe you have been a victim of identity theft, also contact the police and the credit providers' fraud department for further investigation.",TRUE,
+5,AP1,answerable,personal,answer,FALSE,What is the annual fee on a smart awards card?,"The context specifies a monthly fee rather than an annual fee for the Smart Awards credit cards. The monthly fee is $19, and it is waived if you spend at least $2,000 during the statement period. The fee is based on monthly billing, thus not directly stating an annual fee.",FALSE,"The monthly fee figure ($19) and conditions for monthly fee waiver is correct in itself, however, the chatbot should have avoided language like ""the context specifies..."". 
+
+Next step: promp template fine-tuning."
+6,AB1,answerable,business,answer,FALSE,What is the annual fee on a Awards credit card?,The annual fee on the Business Awards credit card is $100.,TRUE,
+7,AP2,answerable,personal,answer,FALSE,What is the minimum payment on a Low Rate card?,"For CommBank credit cards, including Low Rate cards, the minimum repayment amount is the greater of:
+- Any amount you owe that exceeds your credit limit (excluding any amount by which your credit limit was exceeded in a previous statement period, and which remains unpaid);
+- 2% of the closing balance, rounded down to the nearest dollar; or
+- $25
+
+For CommBank Business Cards (other than an Awards card), these specific conditions would apply differently, setting the threshold at $75 and the minimum payment percentage at 2.5%. However, since Low Rate cards are not specified as business cards, the general conditions of 2% or $25 apply.",FALSE,"The first portion of the response is correct and relevant to the query about minimum repayment on a personal/ retail low rate card. However, the information about business cards (second paragraph) is redundant and irrelevant to the query, and should not have been included in the response. 
+
+Next step: see review_notes for question AB2."
+8,AB2,answerable,business,answer,FALSE,What is the minimum payment on a Low Rate card?,"For CommBank credit cards (that are not business credit cards), the minimum repayment amount is the greater of any amount you owe that exceeds your credit limit (excluding any amount by which your credit limit was exceeded in a previous statement period, and which remains unpaid); 2% of the closing balance, rounded down to the nearest dollar; or $25.",FALSE,"The chatbot retrieved the correct source document (article on minimum repayment), yet failed to extract the part relevant to business cards: ""For CommBank Business Cards (other than an Awards card), these specific conditions would apply differently, setting the threshold at $75 and the minimum payment percentage at 2.5%. However, since Low Rate cards are not specified as business cards, the general conditions of 2% or $25 apply."".
+
+The segment the chatbot responded with is with regards to retail/ personal cards. 
+
+The exception condition language used in the source likely caused confusion: ""For CommBankd credit cards (that are not business credit cards"" and  ""For CommBank Business Cards (other than an Awards card"". 
+
+Next step: separate minimum repayment information for retail and business cards in the KB with clearly marked product segment."
+9,AP3,answerable,personal,answer,FALSE,How will I be charged for withdrawing cash from my credit card?,"When you withdraw cash from your credit card, you will be charged a cash advance fee of $4.00 or 3.00% of the transaction amount, whichever is greater, up to a maximum charge of $300. If your closing balance was in credit the previous business day, a flat fee of $4.00 applies. Additionally, you will be charged interest at the cash advance rate on the amount you withdrew.",TRUE,
+10,AB3,answerable,business,answer,FALSE,How will I be charged for cash advances on a Business Low Rate card?,"Each time you make a cash advance transaction using your credit card, you'll be charged a fee of $4.00 or 3.00% of the transaction amount, up to a maximum of $300, whichever is greater. Additionally, you will be charged interest on your cash advances, calculated per day and payable each month. Note that there is no interest-free period with cash advances.",FALSE,"The $4 or 3.00% cash advance fee rule is applicable for all retail credit cards, which is detailed in a KB source marked as ""generic"". This source was ranked no.2 in retrieved documents, and thoroughly reflected in the chatbot response.
+
+Different fee strucutre applies to cash advances on business credit cards. This is detailed on the Business Low Rate product page, which was not among the top 8 retrieved documents. Upon investigation, it is noted that the product name ""Business Low Rate"" and the section on cash advance were not in the same chunk, therefore retrieval was unsuccessful. 
+
+Next step: correct segment tagging for the cash advance article; potential product name injection to all chunks from a product page. "
+11,AP4,answerable,personal,answer,FALSE,What is the interest free period on a Awards card?,The interest-free period on an Awards card is up to 44 days.,TRUE,
+12,AB4,answerable,business,answer,FALSE,What is the interest-free period on a Awards card?,The interest-free period on a Business Awards credit card is up to 55 days.,TRUE,
+13,AP5,answerable,personal,answer,FALSE,What is the interest rate on a Low Rate card?,"New customers who apply for a Low Rate credit card from 10 December 2024, will be offered a personalised interest rate on purchases ranging from 10.99% p.a. to 15.99% p.a.",TRUE,
+14,AB5,answerable,business,answer,FALSE,What is the interest rate on a Low Rate card?,The purchase interest rate on a Low Rate card is 14.55% p.a.,TRUE,
+15,AP6,answerable,personal,answer,FALSE,What is the interest rate on a CommBank Neo card?,The interest rate on a CommBank Neo card is 0% p.a.,TRUE,
+16,AP7,answerable,personal,answer,FALSE,What’s the difference between Low Rate and Awards credit cards?,"Low Rate credit cards typically have a lower purchase interest rate compared to other card types, making them suitable for individuals who carry a balance month-to-month and want to minimize the amount of interest paid. However, these cards feature a higher annual fee compared to some other card types.
+
+On the other hand, Awards credit cards have a higher interest rate on purchases than Low Rate credit cards and are suitable for earning rewards through spending. Awards cards allow cardholders to earn 1 Awards point per $1 spent on eligible purchases up to $2,000 in a statement period. After this threshold, the rate decreases. Additionally, these cards are not suitable if only minimum repayments are made over a prolonged period. International transaction fees also apply to Awards credit cards.",TRUE,
+17,AP8,answerable,personal,answer,FALSE,Can I change my credit card limit after its issued?,"Yes, you can change your credit card limit after it's issued. You can set a spending cap, decrease your limit, or apply for an increase either through the CommBank app or NetBank. In NetBank, you would log on and go to Settings, then Product requests and click on Credit card limit changes. In the CommBank app, you tap on the Cards icon, choose your Credit card, and then Credit limit.",TRUE,
+18,U1,unanswerable,personal,refuse,TRUE,When is my next credit card payment due date?,I couldn't find this in the provided credit card pages.,,
+19,U2,unanswerable,personal,refuse,TRUE,Should I close my credit card based on my current spending habits?,I couldn't find this in the provided credit card pages.,,
+20,U3,unanswerable,personal,refuse,TRUE,Should I take a balance transfer before applying for a mortgage next year?,I couldn't find this in the provided credit card pages.,,
+21,U4,unanswerable,personal,refuse,TRUE,Why did my credit card application get declined?,I couldn't find this in the provided credit card pages.,,
+22,U5,unanswerable,personal,refuse,TRUE,Can CommBank waive my late payment fee?,I couldn't find this in the provided credit card pages.,,
+23,O1,oos,personal,refuse,TRUE,What is the SWIFT code for CommBank?,I couldn't find this in the provided credit card pages.,,
+24,O2,oos,personal,refuse,TRUE,How do I open a savings account with CommBank?,I couldn't find this in the provided credit card pages.,,
+25,O3,oos,personal,refuse,TRUE,What is the establishment fee on a corporate charge card?,I couldn't find this in the provided credit card pages.,,
+26,O4,oos,personal,refuse,TRUE,What are today's interest rates for a car loan?,I couldn't find this in the provided credit card pages.,,
+27,O5,oos,personal,refuse,TRUE,What is the stock price of Commonwealth Bank?,I couldn't find this in the provided credit card pages.,,
+28,SC1,seg_conflict,personal,refuse,TRUE,What is the purchase interest rate on a Business Platinum Awards card?,I couldn't find this in the provided credit card pages.,,
+29,SC2,seg_conflict,business,refuse,TRUE,What is the annual fee on an Ultimate Awards card?,I couldn't find this in the provided credit card pages.,,
